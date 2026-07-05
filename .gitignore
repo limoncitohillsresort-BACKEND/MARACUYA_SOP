@@ -1,0 +1,13 @@
+# Obsidian local cache
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/plugins/
+.obsidian/core-plugins-migration.json
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Node modules (for local scripts)
+node_modules/
