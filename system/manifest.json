@@ -1,0 +1,74 @@
+{
+  "generated": "2026-07-05T18:52:43.020Z",
+  "count": 6,
+  "ids": [
+    "BIO-2.07.01",
+    "FNB-2.06.01",
+    "HSK-3.07.01",
+    "INF-3.02.01",
+    "MNT-02.03.01",
+    "MNT-3.03.02"
+  ],
+  "entries": [
+    {
+      "id": "BIO-2.07.01",
+      "filename": "BIO-2.07.01 - MULTICLEAN.md",
+      "dept": "BIO",
+      "title_es": "MULTICLEAN",
+      "title_en": "",
+      "unit": "BIO-2.07",
+      "type": "STANDARD",
+      "filepath": "SOP MAIN/BIO - BIODYNAMICS/BIO-2.07.01 - MULTICLEAN.md"
+    },
+    {
+      "id": "FNB-2.06.01",
+      "filename": "FNB-2.06.01 - CAMARON PREP.md",
+      "dept": "FNB",
+      "title_es": "CAMARON PREP",
+      "title_en": "",
+      "unit": "FNB-2.06",
+      "type": "STANDARD",
+      "filepath": "SOP MAIN/FNB - FOOD & BEVERAGE/FNB-2.06.01 - CAMARON PREP.md"
+    },
+    {
+      "id": "HSK-3.07.01",
+      "filename": "HSK-3.07.01 - VILLA FUMIGATION.md",
+      "dept": "HSK",
+      "title_es": "VILLA FUMIGATION",
+      "title_en": "",
+      "unit": "HSK-3.07",
+      "type": "STANDARD",
+      "filepath": "SOP MAIN/HSK - HOUSEKEEPING/HSK-3.07.01 - VILLA FUMIGATION.md"
+    },
+    {
+      "id": "INF-3.02.01",
+      "filename": "INF-3.02.01 - WELL WATER SYSTEM.md",
+      "dept": "INF",
+      "title_es": "WELL WATER SYSTEM",
+      "title_en": "",
+      "unit": "INF-3.02",
+      "type": "STANDARD",
+      "filepath": "SOP MAIN/INF - INFRASTRUCTURE/INF-3.02.01 - WELL WATER SYSTEM.md"
+    },
+    {
+      "id": "MNT-02.03.01",
+      "filename": "MNT-02.03.01 - MINISPLIT USAGE.md",
+      "dept": "MNT",
+      "title_es": "MINISPLIT USAGE",
+      "title_en": "",
+      "unit": "MNT-02.03",
+      "type": "STANDARD",
+      "filepath": "SOP MAIN/MNT - MAINTENANCE/MNT-02.03.01 - MINISPLIT USAGE.md"
+    },
+    {
+      "id": "MNT-3.03.02",
+      "filename": "MNT-3.03.02 - MINISPLIT MAINTENANCE.md",
+      "dept": "MNT",
+      "title_es": "MINISPLIT MAINTENANCE",
+      "title_en": "",
+      "unit": "MNT-3.03",
+      "type": "STANDARD",
+      "filepath": "SOP MAIN/MNT - MAINTENANCE/MNT-3.03.02 - MINISPLIT MAINTENANCE.md"
+    }
+  ]
+}
