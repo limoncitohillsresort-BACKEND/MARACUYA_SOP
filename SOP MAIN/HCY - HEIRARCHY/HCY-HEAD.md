@@ -1,6 +1,6 @@
 `LANG: BI`
 
-This is the chapter HEAD cover for unit `HRC-1.02`. It compiles all 21 role entries plus the structure lesson `HRC-1.01.01`. The interlock marker block is written by the compiler (`interlock_compiler.py`) during batch index. Shown here filled as it would appear post-compile, so you can verify format.
+
 
 ```markdown
 ---
@@ -14,12 +14,15 @@ title_es: "Puestos y Estructura de MARACUYA"
 title_en: "MARACUYA Roles and Structure"
 interlock_pending: false
 ---
+```
 
+```
 ┌─────────────────────────────────────────────────────────────┐
 │  HRC-1.02.00                                                  │
 │  HEAD Puestos y Estructura de MARACUYA                        │
 │  MARACUYA · Relaciones Humanas · Portada de Capítulo          │
 └─────────────────────────────────────────────────────────────┘
+```
 
 ## MARACUYA · Portada de Capítulo / Chapter Binder Cover
 
