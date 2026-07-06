@@ -1,4 +1,3 @@
-
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │  HRC-1.02.21                                                  │
@@ -37,13 +36,13 @@ Frecuencia: **TEMPORADA ALTA**.
 4. Reportar al jefe del departamento asignado.
 
 **Puestos que puede asumir**
-- Cualquier puesto T2 o T3 según necesidad de temporada: limpieza, cocina de apoyo, jardinería, entregas.
+- Cualquier puesto T2 o T3 según necesidad de temporada: [[HCY-1.02.00]], cocina de apoyo, jardinería, entregas.
 
 ### 【 CONSEQUENCE - CONSECUENCIA 】
 1. Operar sin estudiar el SOP del puesto **AUMENTA EL RIESGO DE ERROR** en un pico de demanda.
 
 ### 【 ESCALATION - ESCALAMIENTO 】
-Reporta a: el jefe del departamento asignado. Coordinación por [[ROLE-Operations-Manager]].
+Reporta a: el jefe del departamento asignado. Coordinación por Operations Manager.
 
 ### 【 BIBLE CHECK - REVISIÓN BIBLIA 】
 ✅ APROBADO. Hereda el cumplimiento de la Biblia del puesto que cubre.

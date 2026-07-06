@@ -1,4 +1,3 @@
-
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │  HRC-1.02.03                                                  │
@@ -10,7 +9,7 @@
 SOP No.    : HRC-1.02.03
 Título     : Puesto: Especialista en Biodinámica y Gerente de Paisajismo
 Versión    : 1.0   Creado: 2026-07-06   Próxima revisión: 2027-01-06
-Dueño (DRI): Operations Manager
+Dueño (DRI): [[HCY-1.02.01]]
 Confianza  : T1
 Banderas   : 🌱 BIBLIA DE LA TIERRA
 ```
@@ -26,15 +25,15 @@ Definir la autoridad ecológica de la finca y quién dirige el suelo vivo, los h
 
 ### 【 SCOPE - ALCANCE 】
 Incluye: directriz biodinámica, plan de huertos y remediación, control biológico, calidad de composta y agua viva.
-Excluye: decisiones de dinero y personal (esas son del Gerente de Operaciones).
+Excluye: decisiones de dinero y personal (esas son del [[HCY-1.02.01]]).
 Frecuencia: **DIARIO Y CÍCLICO** (según calendario biodinámico).
 
 ### 【 PROCEDURE - PROCEDIMIENTO 】
 **Responsabilidades principales**
 1. Emitir y hacer cumplir la **DIRECTRIZ ECOLÓGICA**. Nada de químicos.
-2. Dirigir a [[ROLE-Gardener]], [[ROLE-Groundskeeper]] y [[ROLE-Waste-Management]].
+2. Dirigir a [[HCY-1.02.10]], [[HCY-1.02.11]] y [[HCY-1.02.12]].
 3. Planear huertos, terrazas, hügelkultur y orquídeos.
-4. Validar la calidad de composta, biochar y té de lombriz con el [[NODE-Microbiology-Lab]].
+4. Validar la calidad de composta, biochar y té de lombriz ↳ see [[BIO-2.07.01]].
 5. Supervisar el control biológico de plagas (aves, geckos, barreras).
 6. Coordinar la futura compañía de manejo de orquídeos y remediación.
 
@@ -50,13 +49,13 @@ La ecología es el moat de MARACUYA. Concentrar la autoridad ecológica en un ex
 2. Composta mal validada puede llevar **PATÓGENOS AL PLATO** del huésped ☠️.
 
 ### 【 ESCALATION - ESCALAMIENTO 】
-Reporta a: [[ROLE-Operations-Manager]]. Línea directiva a [[ROLE-Executor-Administrator]] para temas ecológicos.
+Reporta a: [[HCY-1.02.01]]. Línea directiva a [[HCY-1.01.01]] para temas ecológicos.
 
 ### 【 RACI - RACI 】
 | Actividad | DRI | Respaldo | Consultado | Informado |
 |---|---|---|---|---|
-| Directriz ecológica | Biodynamics Specialist | Executor | Microbiology Lab | Gardener, Waste |
-| Plan de huertos | Biodynamics Specialist | Gardener | Executor | Chef |
+| Directriz ecológica | [[HCY-1.02.03]] | [[HCY-1.01.01]] | [[BIO-2.07.01]] | [[HCY-1.02.10]], [[HCY-1.02.12]] |
+| Plan de huertos | [[HCY-1.02.03]] | [[HCY-1.02.10]] | [[HCY-1.01.01]] | [[FNB-2.06.01]] |
 
 ### 【 BIBLE CHECK - REVISIÓN BIBLIA 】
 ✅ APROBADO. Este puesto ES el custodio de la Biblia de la Tierra. §1 §2 §6 §9 §10.

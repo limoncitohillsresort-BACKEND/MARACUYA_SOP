@@ -1,4 +1,3 @@
-
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │  HRC-1.02.04                                                  │
@@ -10,7 +9,7 @@
 SOP No.    : HRC-1.02.04
 Título     : Puesto: Gerente de Logística
 Versión    : 1.0   Creado: 2026-07-06   Próxima revisión: 2027-01-06
-Dueño (DRI): Operations Manager
+Dueño (DRI): [[HCY-1.02.01 - Puesto: Gerente de Operaciones - Position: Operations Manager]]
 Confianza  : T1
 Banderas   : (ninguna)
 ```
@@ -26,17 +25,17 @@ Definir quién asegura que la finca nunca se quede sin recursos, comprando a gra
 
 ### 【 SCOPE - ALCANCE 】
 Incluye: compras a granel, inventario, coordinación de entregas, transporte.
-Excluye: manejo de efectivo directo (pasa por Gerente de Operaciones o Albacea).
+Excluye: manejo de efectivo directo (pasa por [[HCY-1.02.01 - Puesto: Gerente de Operaciones - Position: Operations Manager]] o [[HCY-1.02.02 - Puesto: Albacea - Position: Executor]]).
 Frecuencia: **SEMANAL Y POR EVENTO**.
 
 ### 【 PROCEDURE - PROCEDIMIENTO 】
 **Responsabilidades principales**
 1. Planear compras a granel en Sams, Costco, Walmart y mercados locales.
 2. Mantener el módulo de **INVENTARIO** al día.
-3. Coordinar al [[ROLE-Driver-Delivery]].
+3. Coordinar al [[HCY-1.02.17 - Puesto: Conductor de Entregas - Position: Driver-Delivery]].
 4. Anticipar faltantes antes de la temporada de lluvias.
-5. Coordinar refacciones y equipos con [[ROLE-Maintenance]].
-6. Trabajar con [[ROLE-Accounting-Firm]] en registros de compra.
+5. Coordinar refacciones y equipos con [[HCY-1.02.11 - Puesto: Jefe de Mantenimiento - Position: Maintenance Chief]].
+6. Trabajar con [[HCY-1.02.13 - Puesto: Contabilidad (Tercero) - Position: Accounting Firm]] en registros de compra.
 
 **Puestos que puede asumir**
 - Comprador, controlador de inventario, planificador de rutas, coordinador de proveedores, apoyo en evacuaciones con vehículo.
@@ -46,7 +45,7 @@ Frecuencia: **SEMANAL Y POR EVENTO**.
 2. Inventario descuidado causa **PÉRDIDA Y ROBO** no detectados.
 
 ### 【 ESCALATION - ESCALAMIENTO 】
-Reporta a: [[ROLE-Operations-Manager]]. Dirige a [[ROLE-Driver-Delivery]].
+Reporta a: [[HCY-1.02.01 - Puesto: Gerente de Operaciones - Position: Operations Manager]]. Dirige a [[HCY-1.02.17 - Puesto: Conductor de Entregas - Position: Driver-Delivery]].
 
 ### 【 BIBLE CHECK - REVISIÓN BIBLIA 】
 ✅ APROBADO. Prioriza insumos ecológicos y a granel para reducir viajes y empaques.

@@ -1,4 +1,3 @@
-
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │  HRC-1.02.13   ⚠ SISTEMA CRÍTICO                              │
@@ -33,10 +32,10 @@ Frecuencia: **DIARIO Y POR EVENTO**.
 **Responsabilidades principales**
 1. Operar y mantener [[NODE-Power]], [[NODE-Well-Cistern]] y [[NODE-Pools]].
 2. **NUNCA ARRANCAR** un sistema crítico en el momento equivocado. El tiempo lo autoriza **T0**.
-3. Resolver fallas con soluciones MacGyver documentadas.
+3. Resolver fallas con soluciones MacGyver documentadas ↳ see [[MNT-3.03.02 - Reparaciones de Emergencia - Emergency Repairs]].
 4. Coordinar refacciones con [[ROLE-Logistics-Manager]].
 5. Registrar el estado de la infraestructura en el módulo Mantenimiento.
-6. Apoyar emergencias eléctricas y de agua.
+6. Apoyar emergencias eléctricas y de agua ↰ feeds [[HSK-3.07.01 - Protocolo de Emergencias - Emergency Protocol]].
 
 **Puestos que puede asumir**
 - Técnico eléctrico básico, plomero, operador de bomba, reparador general, apoyo de construcción, MacGyver de emergencias.

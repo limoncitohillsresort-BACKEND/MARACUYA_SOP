@@ -1,4 +1,3 @@
-
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │  HRC-1.02.07                                                  │
@@ -34,8 +33,8 @@ Frecuencia: **DIARIO**.
 1. Preparar platillos según receta y estándar del Chef.
 2. Cuidar porciones y reducir desperdicio.
 3. Limpiar la estación solo con productos aprobados.
-4. Separar orgánicos correctamente para [[DEPT-WST]].
-5. Reportar cualquier duda de inocuidad al [[ROLE-Chef]].
+4. Separar orgánicos correctamente para compostaje ≈ [[BIO-2.07.01 - Proceso de Compostaje - Composting Process]].
+5. Reportar cualquier duda de inocuidad al Chef.
 
 **Puestos que puede asumir**
 - Cocinero de línea, apoyo de preparación, encargado de limpieza de cocina, apoyo en comida del personal.
@@ -45,7 +44,7 @@ Frecuencia: **DIARIO**.
 2. Mala separación envía **VENENO A LA COMPOSTA** viva.
 
 ### 【 ESCALATION - ESCALAMIENTO 】
-Reporta a: [[ROLE-Chef]].
+Reporta a: Chef.
 
 ### 【 BIBLE CHECK - REVISIÓN BIBLIA 】
 ✅ APROBADO. §4 separación, §7 producto orgánico.

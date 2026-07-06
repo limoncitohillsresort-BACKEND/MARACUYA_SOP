@@ -1,4 +1,3 @@
-
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │  HRC-1.01.01                                                  │
@@ -7,7 +6,7 @@
 └─────────────────────────────────────────────────────────────┘
 
 【 META - META 】
-SOP No.    : HRC-1.01.01
+SOP No.    : [[HCY-1.01.01]]
 Título     : La estructura de MARACUYA: quién es quién y quién decide
 Versión    : 1.0   Creado: 2026-07-06   Próxima revisión: 2027-01-06
 Dueño (DRI): Operations Manager
@@ -33,7 +32,7 @@ Que cada persona en la finca entienda con claridad la estructura de mando: a qui
 ### 【 SCOPE - ALCANCE 】
 
 Incluye: las dos capas de gobierno, todos los puestos, líneas de reporte, autoridad de dinero, niveles de confianza T0 a T4, y la regla de igualdad bajo la sombrilla.
-Excluye: procedimientos de tareas específicas de cada puesto (esos viven en sus propios SOP), reglas de convivencia y vivienda (ver HRC-1.02.xx).
+Excluye: procedimientos de tareas específicas de cada puesto (esos viven en sus propios SOP), reglas de convivencia y vivienda ↳ see [[HCY-1.02.00]].
 Frecuencia: **LECTURA OBLIGATORIA** en la etapa de formación de todo miembro nuevo. Repaso una vez al año.
 
 `EN-[ Includes: the two governance layers, all positions, reporting lines, cash authority, trust levels T0 to T4, and the equality-under-the-umbrella rule. Excludes: task procedures per role, housing and coexistence rules. Frequency: MANDATORY READING during every new member's training. Yearly review. ]`
@@ -117,21 +116,17 @@ Tiempo: 5 minutos.
 **PIRÁMIDE DE PODER (quién decide)**
 
 ```
-                    [[ROLE-Owners]]  T4
-                    Propietarios x4
+                    Propietarios x4  T4
                           |
-             [[ROLE-Executor-Administrator]]  T0
-                 Albacea. AUTORIDAD FINAL
+                 Albacea. AUTORIDAD FINAL  T0
                           |
         +-----------------+-----------------+
         |                 |                 |
-  [[ROLE-Lawyers]]  [[ROLE-Accounting]]  [[ROLE-Operator-Company]]
      Abogados x3      Contable        Compañía operadora
         |                 |                 |
         +-----------------+-----------------+
                           |
-           [[ROLE-Operations-Manager]]  T0
-              Gerente de Operaciones
+              Gerente de Operaciones  T0
                 (centro del día a día)
                           |
    +--------+--------+--------+--------+--------+--------+
@@ -147,19 +142,19 @@ Chofer  Jardinero  Cocineros
 **RED OPERATIVA (cómo trabajamos juntos)**
 
 ```
-   [[DEPT-BIO]] <---> [[DEPT-GRD]] <---> [[DEPT-WST]]
+   Biodinámica <---> Jardín <---> Residuos
         ^                 ^                  ^
         |                 |                  |
         v                 v                  v
-   [[DEPT-FNB]] <---> [[DEPT-HSK]] <---> [[DEPT-INF]]
+   Alimentos <---> Limpieza <---> Informática
         ^                 ^                  ^
         |                 |                  |
         v                 v                  v
-   [[DEPT-GST]] <---> [[DEPT-SEC]] <---> [[DEPT-EMG]]
+   Huéspedes <---> Seguridad <---> Emergencias
                           ^
                           |
               todos giran alrededor de
-        [[NODE-Power]] [[NODE-Well-Cistern]] [[NODE-Pools]]
+        Energía  Pozo-Cisterna  Albercas
 ```
 
 ---
@@ -167,19 +162,19 @@ Chofer  Jardinero  Cocineros
 ### 【 DECISION - DECISIÓN 】
 
 Si es un tema de **DINERO** (cobro, pago, descuento, compensación)
-   entonces escala al [[ROLE-Operations-Manager]] o al [[ROLE-Executor-Administrator]]. No decides tú.
+   entonces escala al Gerente de Operaciones o al Albacea. No decides tú.
 
 Si es un tema de **TIERRA O ECOLOGÍA** (fertilizante, plaga, agua viva)
-   entonces la directriz la da el [[ROLE-Biodynamics-Specialist]] y la ratifica el [[ROLE-Executor-Administrator]].
+   entonces la directriz la da el especialista biodinámica ↰ feeds [[BIO-2.07.01]] y la ratifica el Albacea.
 
 Si es una **EMERGENCIA**
-   entonces cualquiera inicia la respuesta y avisa a [[ROLE-Security-Guard]] y al [[ROLE-Operations-Manager]].
+   entonces cualquiera inicia la respuesta y avisa a Seguridad y al Gerente de Operaciones.
 
 Si es una **TAREA DIARIA**
-   entonces la coordina el [[ROLE-Operations-Manager]] o tu jefe directo del departamento.
+   entonces la coordina el Gerente de Operaciones o tu jefe directo del departamento.
 
 Si es un **SISTEMA CRÍTICO** (energía, pozo, alberca)
-   entonces la tarea la hace [[ROLE-Maintenance]] pero el momento de actuar lo autoriza **T0**.
+   entonces la tarea la hace Mantenimiento ≈ related [[MNT-02.03.01]] pero el momento de actuar lo autoriza **T0**.
 
 ---
 
@@ -191,7 +186,7 @@ Si es un **SISTEMA CRÍTICO** (energía, pozo, alberca)
 
 ¿Por qué existen los niveles de confianza? Porque no toda tarea tiene el mismo riesgo. Un voluntario nuevo puede cubrir mantillo sin peligro, pero no debe tocar la bomba del pozo ni los datos de un huésped. Los niveles protegen a la persona, al huésped y al organismo.
 
-¿Por qué la regla de la sombrilla? Porque MARACUYA es una comunidad aislada y un organismo vivo. La autoridad para decidir no es lo mismo que el valor de la persona. El jardinero y el Albacea comen del mismo huerto y respiran el mismo aire. Cada uno tiene un don. La estructura organiza el poder, no el respeto.
+¿Por qué la regla de la sombrilla? Porque MARACUYA es una comunidad aislada y un organismo vivo. La autoridad para decidir no es lo mismo que el valor de la persona. El jardinero y el Albacea comen del mismo huerto ≈ related [[FNB-2.06.01]] y respiran el mismo aire. Cada uno tiene un don. La estructura organiza el poder, no el respeto.
 
 Conexión con la Biblia de la Tierra: la finca es un organismo. Un organismo tiene órganos distintos con funciones distintas, pero todos dependen unos de otros. El corazón no vale más que el hígado. Así es la estructura de MARACUYA.
 
@@ -216,18 +211,18 @@ Conexión con la Biblia de la Tierra: la finca es un organismo. Un organismo tie
 Emergencia de vida o muerte: la estructura se simplifica. Cualquiera actúa de inmediato y avisa después. La vida primero, el reporte después.
 Ausencia del jefe directo: reporta al siguiente puesto hacia arriba en la pirámide.
 Tarea fuera de tu departamento donde eres bueno: puedes apoyar en la red, pero solo bajo el permiso del jefe de esa área y nunca en tareas de nivel de confianza superior al tuyo.
-Duda sobre quién decide: pregunta al [[ROLE-Operations-Manager]]. Nunca inventes autoridad.
+Duda sobre quién decide: pregunta al Gerente de Operaciones. Nunca inventes autoridad.
 
 ---
 
 ### 【 ESCALATION - ESCALAMIENTO 】
 
-Tarea diaria: tu jefe de departamento o el [[ROLE-Operations-Manager]].
-Dinero, personas, huéspedes: [[ROLE-Operations-Manager]] y luego [[ROLE-Executor-Administrator]]. 💵 T0.
-Tierra, ecología, agua viva: [[ROLE-Biodynamics-Specialist]], ratifica [[ROLE-Executor-Administrator]].
-Legal o cumplimiento: [[ROLE-Lawyers]] y [[ROLE-Operator-Company]]. [ALCANCE COMPAÑÍA OPERADORA].
-Sistema crítico: tarea [[ROLE-Maintenance]], tiempo autoriza T0.
-Decisión final de cualquier cosa: [[ROLE-Executor-Administrator]].
+Tarea diaria: tu jefe de departamento o el Gerente de Operaciones.
+Dinero, personas, huéspedes: Gerente de Operaciones y luego Albacea. 💵 T0.
+Tierra, ecología, agua viva: especialista biodinámica ↰ feeds [[BIO-2.07.01]], ratifica Albacea.
+Legal o cumplimiento: abogados y compañía operadora. [ALCANCE COMPAÑÍA OPERADORA].
+Sistema crítico: tarea Mantenimiento ≈ related [[MNT-3.03.02]], tiempo autoriza T0.
+Decisión final de cualquier cosa: Albacea.
 
 ---
 
@@ -263,39 +258,3 @@ Decisión final de cualquier cosa: [[ROLE-Executor-Administrator]].
 Ningún paso introduce químicos ni contradice la Biblia de la Tierra.
 La regla de la sombrilla refuerza la comunidad, base cultural del organismo regenerativo.
 ```
-
-```yaml
-sop_id: HRC-1.01.01
-title_es: "La estructura de MARACUYA: quién es quién y quién decide"
-dept: HRC
-grade: 1
-unit: "HRC-1.01"
-tier: "T3"
-type: "STANDARD"
-banners: ["🌱 BIBLIA DE LA TIERRA"]
-roles_owner: "Operations Manager"
-roles_backup: ["Executor-Administrator", "jefes de departamento"]
-measures:
-  - {name: "staff_quiz_estructura_pct", method: "training", target: "100"}
-  - {name: "reportes_jefe_equivocado", method: "incident", target: "0"}
-  - {name: "efectivo_no_autorizado", method: "auditoria", target: "0"}
-pii_handling: false
-bible_check: pass
-critical_system: false
-season_lock: yearly
-operator_scope: false
-source_type: text
-vision_flags: []
-created: "2026-07-06"
-next_audit: "2027-01-06"
-interlock_pending: true
-```
-
-This is `HRC-1.01.01`, the foundational structure lesson. It is Grade 1, tier T3, so every member including new volunteers reads it first. It wikilinks to every role, department, and critical node stub built in the prior step, so on HEAD compile it will anchor the whole hierarchy cluster in the graph.
-
-Notes on design choices:
-- Both maps are drawn as ASCII: the thin power pyramid and the flat operational network, exactly the two-layer governance model.
-- The cash rule, trust tiers, ecological-directive chain, and the equality-under-the-umbrella principle are each a discrete teachable step.
-- `interlock_pending: true` set. The interlock block is not written here. AntiGravity writes it onto the `HRC-1.01.00` HEAD cover during batch compile.
-
-Next available step: generate the companion `HRC-1.01.02` (housing, meals, Bounty Hunter, weekly training, the concrete benefits side of the umbrella), then the `HRC-1.01.00` HEAD cover so the chapter closes and the graph cluster forms.

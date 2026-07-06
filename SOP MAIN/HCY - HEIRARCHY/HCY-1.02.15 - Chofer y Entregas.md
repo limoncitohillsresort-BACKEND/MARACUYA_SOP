@@ -1,4 +1,3 @@
-
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │  HRC-1.02.15                                                  │
@@ -26,16 +25,16 @@ Definir al puesto que mueve personas y suministros y apoya evacuaciones.
 
 ### 【 SCOPE - ALCANCE 】
 Incluye: transporte de suministros, entregas, apoyo de evacuación con vehículo.
-Excluye: manejo de efectivo de compras (pasa por Logística u Operaciones).
+Excluye: manejo de efectivo de compras (pasa por [[HCY-1.02.00]] u [[HCY-1.02.00]]).
 Frecuencia: **POR EVENTO**.
 
 ### 【 PROCEDURE - PROCEDIMIENTO 】
 **Responsabilidades principales**
 1. Transportar suministros a granel y entregas por camino de terracería y carretera.
 2. Revisar el estado del camino y del arroyo antes de cargar personas en lluvias.
-3. Apoyar **EVACUACIONES 4X4** coordinadas con [[ROLE-Operations-Manager]].
-4. Mantener el vehículo en condición segura.
-5. Coordinar con [[ROLE-Logistics-Manager]] rutas y cargas.
+3. Apoyar **EVACUACIONES 4X4** coordinadas con Operations Manager.
+4. Mantener el vehículo en condición segura ↳ see [[MNT-3.03.02 - Mantenimiento Básico Vehículos - Basic Vehicle Maintenance]].
+5. Coordinar con Logistics Manager rutas y cargas.
 
 **Puestos que puede asumir**
 - Transporte de carga, entregas, chofer de evacuación, apoyo de logística, apoyo de recepción de huéspedes en carretera.
@@ -45,7 +44,7 @@ Frecuencia: **POR EVENTO**.
 2. Vehículo descuidado falla justo cuando más se necesita en emergencia.
 
 ### 【 ESCALATION - ESCALAMIENTO 】
-Reporta a: [[ROLE-Logistics-Manager]]. Apoya emergencias con [[ROLE-Operations-Manager]].
+Reporta a: Logistics Manager. Apoya emergencias con Operations Manager.
 
 ### 【 BIBLE CHECK - REVISIÓN BIBLIA 】
 ✅ APROBADO. Prioriza cargas a granel para reducir viajes y huella.
@@ -66,4 +65,3 @@ interlock_pending: true
 ```
 
 ---
-

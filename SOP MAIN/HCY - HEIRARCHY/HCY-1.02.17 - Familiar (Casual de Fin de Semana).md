@@ -1,4 +1,3 @@
-
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │  HRC-1.02.17                                                  │
@@ -42,7 +41,7 @@ Frecuencia: **FIN DE SEMANA, OCASIONAL**.
 1. Tarea sin supervisión rompe el límite de confianza T3.
 
 ### 【 ESCALATION - ESCALAMIENTO 】
-Reporta a: el puesto fijo que lo supervisa. Coordinación por [[ROLE-Operations-Manager]].
+Reporta a: el puesto fijo que lo supervisa. Coordinación por Operations Manager.
 
 ### 【 BIBLE CHECK - REVISIÓN BIBLIA 】
 ✅ APROBADO. Respeta la Biblia de la Tierra en todo apoyo.

@@ -1,22 +1,21 @@
-
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│  HRC-1.02.09                                                  │
+│  HCY-1.02.09                                                  │
 │  Puesto: Camarista / Limpieza                                 │
 │  MARACUYA · Relaciones Humanas · Grado 1                      │
 └─────────────────────────────────────────────────────────────┘
 
 【 META - META 】
-SOP No.    : HRC-1.02.09
+SOP No.    : HCY-1.02.09
 Título     : Puesto: Camarista y Limpieza
 Versión    : 1.0   Creado: 2026-07-06   Próxima revisión: 2027-01-06
-Dueño (DRI): Operations Manager
+Dueño (DRI): [[HCY-1.02.01 - Operations Manager]]
 Confianza  : T2
 Banderas   : 🌱 BIBLIA DE LA TIERRA · 🔒 PII
 ```
 
 📌 **¿SABÍAS QUE?**
-La camarista es la cara diaria del eco-lujo. El huésped juzga toda la marca por lo que toca con las manos. Y una sola decisión de limpieza mal hecha puede dañar el filtro biológico de toda la finca.
+La [[HCY-1.02.09 - Recamarista y Limpieza]] es la cara diaria del eco-lujo. El huésped juzga toda la marca por lo que toca con las manos. Y una sola decisión de limpieza mal hecha puede dañar el filtro biológico de toda la finca.
 
 `EN-[ Housekeeping is the daily face of eco-luxury. The guest judges the whole brand by what they touch. And one wrong cleaning decision can harm the biological filter of the entire property. ]`
 
@@ -26,12 +25,12 @@ Definir al puesto que limpia y esteriliza las villas con métodos ecológicos y 
 
 ### 【 SCOPE - ALCANCE 】
 Incluye: limpieza y esterilización con vapor, ozono, UV y ácido peracético, turnover entre huéspedes, reporte de daños e inventario.
-Excluye: reparaciones mayores (Mantenimiento).
+Excluye: reparaciones mayores ↳ see [[MNT-02.03.01 - Mantenimiento General]].
 Frecuencia: **DIARIO Y POR SALIDA DE HUÉSPED**.
 
 ### 【 PROCEDURE - PROCEDIMIENTO 】
 **Responsabilidades principales**
-1. Limpiar y esterilizar villas solo con métodos aprobados.
+1. Limpiar y esterilizar villas solo con métodos aprobados ≈ related [[BIO-2.07.01 - Métodos de Esterilización Ecológica]].
 2. **NUNCA** verter productos prohibidos a drenajes de corriente viva.
 3. Ejecutar el turnover: checklist de inventario y daños entre huéspedes.
 4. Reportar objetos faltantes o daños en el módulo villa turnover.
@@ -45,17 +44,17 @@ Frecuencia: **DIARIO Y POR SALIDA DE HUÉSPED**.
 2. Villa mal esterilizada **BAJA LAS RESEÑAS** y rompe el estándar de eco-lujo.
 
 ### 【 ESCALATION - ESCALAMIENTO 】
-Reporta a: [[ROLE-Operations-Manager]]. Confianza dependiente de [[DEPT-BIO]].
+Reporta a: [[HCY-1.02.01 - Operations Manager]]. Confianza dependiente de sistema biológico.
 
 ### 【 BIBLE CHECK - REVISIÓN BIBLIA 】
 ✅ APROBADO. §3 esterilización aprobada, §4 separación de aguas, §5 materiales sin moho.
 ```
 ```yaml
-sop_id: HRC-1.02.09
+sop_id: HCY-1.02.09
 title_es: "Puesto: Camarista y Limpieza"
-dept: HRC
+dept: HCY
 grade: 1
-unit: "HRC-1.02"
+unit: "HCY-1.02"
 tier: "T2"
 type: "STANDARD"
 roles_owner: "Operations Manager"
@@ -65,5 +64,3 @@ critical_system: false
 operator_scope: false
 interlock_pending: true
 ```
-
----

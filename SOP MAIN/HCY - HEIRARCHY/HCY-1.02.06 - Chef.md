@@ -1,13 +1,12 @@
-
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│  HRC-1.02.06                                                  │
+│  HCY-1.02.06                                                  │
 │  Puesto: Chef                                                 │
 │  MARACUYA · Relaciones Humanas · Grado 1                      │
 └─────────────────────────────────────────────────────────────┘
 
 【 META - META 】
-SOP No.    : HRC-1.02.06
+SOP No.    : HCY-1.02.06
 Título     : Puesto: Chef
 Versión    : 1.0   Creado: 2026-07-06   Próxima revisión: 2027-01-06
 Dueño (DRI): Operations Manager
@@ -16,7 +15,7 @@ Banderas   : ⛑ SEGURIDAD
 ```
 
 📌 **¿SABÍAS QUE?**
-El Chef cierra el círculo del organismo. El huerto alimenta la cocina, y la cocina alimenta al huésped. Un plato de CIEN BALLENAS es el último eslabón de una cadena que empezó en la composta.
+El [[HCY-1.02.06 - Puesto: Chef - Chef Position]] cierra el círculo del organismo. El huerto alimenta la cocina, y la cocina alimenta al huésped. Un plato de CIEN BALLENAS es el último eslabón de una cadena que empezó en la composta.
 
 `EN-[ The Chef closes the organism's circle. The orchard feeds the kitchen and the kitchen feeds the guest. A CIEN BALLENAS plate is the last link of a chain that began in the compost. ]`
 
@@ -33,9 +32,9 @@ Frecuencia: **DIARIO**.
 **Responsabilidades principales**
 1. Dirigir la cocina y el menú de aguachile y mariscos.
 2. Aceptar o **RECHAZAR LOTES** por cadena de frío rota (decisión T1).
-3. Usar producto orgánico de la finca por diseño farm-to-table.
-4. Separar orgánicos para [[DEPT-WST]]. Nunca sal, aceite ni químicos a corrientes vivas.
-5. Dirigir a [[ROLE-Sous-Chef-Cook]] y [[ROLE-Prep-Cook-Packer]].
+3. Usar producto orgánico de la finca por diseño farm-to-table ↳ see [[BIO-2.07.01 - Sistema Acuapónico - Aquaponic System]].
+4. Separar orgánicos para WST. Nunca sal, aceite ni químicos a corrientes vivas.
+5. Dirigir a [[HCY-1.02.12 - Puesto: Sous Chef / Cocinero - Sous Chef/Cook Position]] y Prep Cook/Packer.
 6. Coordinar la comida diaria del personal.
 
 **Puestos que puede asumir**
@@ -46,23 +45,23 @@ Frecuencia: **DIARIO**.
 2. Un químico de cocina a una corriente viva **DESTRUYE EL FILTRO BIOLÓGICO** ⚠️.
 
 ### 【 ESCALATION - ESCALAMIENTO 】
-Reporta a: [[ROLE-Operations-Manager]]. Dirige a [[ROLE-Sous-Chef-Cook]] y [[ROLE-Prep-Cook-Packer]].
+Reporta a: Operations Manager. Dirige a [[HCY-1.02.12 - Puesto: Sous Chef / Cocinero - Sous Chef/Cook Position]] y Prep Cook/Packer.
 
 ### 【 RACI - RACI 】
 | Actividad | DRI | Respaldo | Consultado | Informado |
 |---|---|---|---|---|
-| Aceptación de lote | Chef | Sous-Chef | Operations Manager | Logistics |
-| Inocuidad de cocina | Chef | Sous-Chef | Microbiology Lab | Operations Manager |
+| Aceptación de lote | [[HCY-1.02.06 - Puesto: Chef - Chef Position]] | [[HCY-1.02.12 - Puesto: Sous Chef / Cocinero - Sous Chef/Cook Position]] | Operations Manager | Logistics |
+| Inocuidad de cocina | [[HCY-1.02.06 - Puesto: Chef - Chef Position]] | [[HCY-1.02.12 - Puesto: Sous Chef / Cocinero - Sous Chef/Cook Position]] | Microbiology Lab | Operations Manager |
 
 ### 【 BIBLE CHECK - REVISIÓN BIBLIA 】
 ✅ APROBADO. §7 orgánico, §4 separación de aguas, §9 cierra el ciclo al plato.
 ```
 ```yaml
-sop_id: HRC-1.02.06
+sop_id: HCY-1.02.06
 title_es: "Puesto: Chef"
-dept: HRC
+dept: HCY
 grade: 1
-unit: "HRC-1.02"
+unit: "HCY-1.02"
 tier: "T1"
 type: "STANDARD"
 roles_owner: "Operations Manager"

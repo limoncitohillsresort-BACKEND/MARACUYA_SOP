@@ -1,4 +1,3 @@
-
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │  HRC-1.02.05                                                  │
@@ -30,15 +29,15 @@ Excluye: operación diaria de la finca.
 Frecuencia: **CONTINUA Y POR EVENTO**.
 
 ### 【 PROCEDURE - PROCEDIMIENTO 】
-**Abogados x3** ([[ROLE-Lawyers]])
-- **Laboral** ([[ROLE-Lawyer-Labor]]): contratos, IMSS, relaciones de personal.
-- **Penal** ([[ROLE-Lawyer-Penal]]): seguridad, incidentes graves, responsabilidad.
-- **Administrativo** ([[ROLE-Lawyer-Administrative]]): permisos, propiedad, gobierno.
+**Abogados x3** (ROLE-Lawyers)
+- **Laboral** (ROLE-Lawyer-Labor): contratos, IMSS, relaciones de personal.
+- **Penal** (ROLE-Lawyer-Penal): seguridad, incidentes graves, responsabilidad.
+- **Administrativo** (ROLE-Lawyer-Administrative): permisos, propiedad, gobierno.
 
-**Despacho Contable** ([[ROLE-Accounting-Firm]])
+**Despacho Contable** (ROLE-Accounting-Firm)
 - Contabilidad, facturación, nómina bajo cumplimiento.
 
-**Compañía Operadora** ([[ROLE-Operator-Company]]) entrante
+**Compañía Operadora** (ROLE-Operator-Company) entrante
 - Absorbe finanzas, nómina, cumplimiento, seguros y contratos.
 
 ### 【 CONSEQUENCE - CONSECUENCIA 】
@@ -46,7 +45,7 @@ Frecuencia: **CONTINUA Y POR EVENTO**.
 2. Sin cumplimiento, la operación no puede tener seguro ni contratos.
 
 ### 【 ESCALATION - ESCALAMIENTO 】
-Todos reportan a: [[ROLE-Executor-Administrator]]. [ALCANCE COMPAÑÍA OPERADORA].
+Todos reportan a: Executor Administrator. [ALCANCE COMPAÑÍA OPERADORA].
 
 ### 【 BIBLE CHECK - REVISIÓN BIBLIA 】
 ✅ APROBADO. Soporte administrativo, sin impacto ecológico directo.

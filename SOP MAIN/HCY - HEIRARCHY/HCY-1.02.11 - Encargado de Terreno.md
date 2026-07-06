@@ -1,4 +1,3 @@
-
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │  HRC-1.02.11                                                  │
@@ -16,7 +15,7 @@ Banderas   : ⛑ SEGURIDAD
 ```
 
 📌 **¿SABÍAS QUE?**
-El encargado de terreno es la primera línea ante la naturaleza. El cortafuegos que despeja hoy puede salvar las casas en la temporada de incendios. El camino que revisa puede evitar que un huésped quede varado.
+El [[HCY-1.02.11 - Puesto Encargado de Terreno - Groundskeeper Position]] es la primera línea ante la naturaleza. El cortafuegos que despeja hoy puede salvar las casas en la temporada de incendios. El camino que revisa puede evitar que un huésped quede varado.
 
 `EN-[ The groundskeeper is the first line against nature. The firebreak cleared today can save the houses in fire season. The road they check can keep a guest from getting stranded. ]`
 
@@ -26,16 +25,16 @@ Definir al puesto que mantiene senderos, cortafuegos, corrientes perimetrales y 
 
 ### 【 SCOPE - ALCANCE 】
 Incluye: mantenimiento de senderos y cortafuegos, corrientes perimetrales, revisión del camino, apoyo a agua y fauna.
-Excluye: reparaciones eléctricas o de bomba (Mantenimiento).
+Excluye: reparaciones eléctricas o de bomba ↳ ver [[MNT-02.03.01 - Mantenimiento Preventivo Sistemas Críticos - Critical Systems Preventive Maintenance]].
 Frecuencia: **DIARIO Y ESTACIONAL**.
 
 ### 【 PROCEDURE - PROCEDIMIENTO 】
 **Responsabilidades principales**
-1. Mantener el **CORTAFUEGOS DE 50 METROS** y los senderos.
+1. Mantener el **CORTAFUEGOS DE 50 METROS** y los senderos ≈ related [[BIO-2.07.01 - Manejo de Vegetación y Cortafuegos - Vegetation and Firebreak Management]].
 2. Cuidar las corrientes perimetrales de agua contra insectos.
 3. Revisar el estado del camino de terracería, sobre todo en lluvias.
-4. Apoyar al [[ROLE-Maintenance]] con el [[NODE-Well-Cistern]].
-5. Reportar riesgos de fauna, clima y camino a [[DEPT-EMG]] y [[DEPT-SEC]].
+4. Apoyar al [[HCY-1.02.04 - Puesto Encargado de Mantenimiento - Maintenance Manager Position]] con el sistema de agua.
+5. Reportar riesgos de fauna, clima y camino ↳ ver [[HSK-3.07.01 - Protocolos de Comunicación de Emergencia - Emergency Communication Protocols]].
 
 **Puestos que puede asumir**
 - Mantenimiento de senderos, apoyo de emergencias, cuidado de barreras, apoyo de agua, apoyo de seguridad perimetral.
@@ -45,7 +44,7 @@ Frecuencia: **DIARIO Y ESTACIONAL**.
 2. Camino sin revisar puede dejar a un huésped **VARADO EN UN ARROYO** en lluvias.
 
 ### 【 ESCALATION - ESCALAMIENTO 】
-Reporta a: [[ROLE-Biodynamics-Specialist]]. Apoya a [[ROLE-Operations-Manager]] en emergencias.
+Reporta a: [[HCY-1.02.02 - Puesto Especialista en Biodinámica - Biodynamics Specialist Position]]. Apoya a [[HCY-1.02.01 - Puesto Gerente de Operaciones - Operations Manager Position]] en emergencias.
 
 ### 【 BIBLE CHECK - REVISIÓN BIBLIA 】
 ✅ APROBADO. §6 barreras biológicas y aromáticas, §8 corrientes de agua.
@@ -64,5 +63,3 @@ critical_system: false
 operator_scope: false
 interlock_pending: true
 ```
-
----

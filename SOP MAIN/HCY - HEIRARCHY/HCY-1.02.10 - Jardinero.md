@@ -1,4 +1,3 @@
-
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │  HRC-1.02.10                                                  │
@@ -16,7 +15,7 @@ Banderas   : 🌱 BIBLIA DE LA TIERRA
 ```
 
 📌 **¿SABÍAS QUE?**
-El jardinero trabaja con suelo vivo, no con tierra muerta. Cada puñado de tierra prieta tiene millones de microbios. El jardinero no cultiva plantas, cultiva vida.
+El [[HCY-1.02.10]] trabaja con suelo vivo, no con tierra muerta. Cada puñado de tierra prieta tiene millones de microbios. El jardinero no cultiva plantas, cultiva vida.
 
 `EN-[ The gardener works with living soil, not dead dirt. Every handful of tierra prieta holds millions of microbes. The gardener does not grow plants, it grows life. ]`
 
@@ -31,7 +30,7 @@ Frecuencia: **DIARIO Y CÍCLICO** (calendario biodinámico).
 
 ### 【 PROCEDURE - PROCEDIMIENTO 】
 **Responsabilidades principales**
-1. Sembrar, regar y cosechar según el plan del [[ROLE-Biodynamics-Specialist]].
+1. Sembrar, regar y cosechar según el plan del [[BIO-2.07.01]].
 2. Aplicar **SOLO INSUMOS BIODINÁMICOS**. Nunca químicos.
 3. Mantener la lombricomposta y las camas de suelo vivo.
 4. Aplicar té de lombriz y biochar cargado según indicación.
@@ -45,7 +44,7 @@ Frecuencia: **DIARIO Y CÍCLICO** (calendario biodinámico).
 2. Fertilizante sin diluir **QUEMA LAS RAÍCES** 🔥.
 
 ### 【 ESCALATION - ESCALAMIENTO 】
-Reporta a: [[ROLE-Biodynamics-Specialist]].
+Reporta a: [[BIO-2.07.01]].
 
 ### 【 BIBLE CHECK - REVISIÓN BIBLIA 】
 ✅ APROBADO. §1 §2 §6 §9. Este puesto ejecuta la Biblia de la Tierra a diario.
@@ -66,4 +65,3 @@ interlock_pending: true
 ```
 
 ---
-

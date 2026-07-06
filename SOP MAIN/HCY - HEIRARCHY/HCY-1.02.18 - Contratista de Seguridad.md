@@ -1,4 +1,3 @@
-
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │  HRC-1.02.18                                                  │
@@ -31,9 +30,9 @@ Frecuencia: **POR EVENTO O TEMPORADA**.
 
 ### 【 PROCEDURE - PROCEDIMIENTO 】
 **Responsabilidades principales**
-1. Reforzar la vigilancia bajo dirección de [[ROLE-Security-Guard]].
+1. Reforzar la vigilancia bajo dirección de [[HCY-1.02.14 - Guardia de Seguridad - Security Guard]].
 2. Respetar la privacidad y discreción de los huéspedes 🔒.
-3. Seguir el protocolo de seguridad y emergencia de la finca.
+3. Seguir el protocolo de seguridad y emergencia de la finca ↳ see [[HSK-3.07.01 - Protocolo de Emergencias - Emergency Protocol]].
 4. No exceder el alcance contratado.
 
 **Puestos que puede asumir**
@@ -43,7 +42,7 @@ Frecuencia: **POR EVENTO O TEMPORADA**.
 1. Falta de discreción o mal manejo de acceso **DAÑA LA CONFIANZA** del huésped y la marca.
 
 ### 【 ESCALATION - ESCALAMIENTO 】
-Reporta a: [[ROLE-Security-Guard]] y [[ROLE-Operations-Manager]]. Vetado por [[ROLE-Executor-Administrator]].
+Reporta a: [[HCY-1.02.14 - Guardia de Seguridad - Security Guard]] y [[HCY-1.02.01 - Gerente de Operaciones - Operations Manager]]. Vetado por [[HCY-1.02.02 - Administrador Albacea - Executor Administrator]].
 
 ### 【 BIBLE CHECK - REVISIÓN BIBLIA 】
 ✅ APROBADO. Sin impacto ecológico. Respeta el sitio y la fauna.
@@ -63,5 +62,3 @@ critical_system: false
 operator_scope: false
 interlock_pending: true
 ```
-
----

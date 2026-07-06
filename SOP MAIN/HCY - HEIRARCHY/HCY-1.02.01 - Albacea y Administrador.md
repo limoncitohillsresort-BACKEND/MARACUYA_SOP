@@ -1,4 +1,3 @@
-
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │  HRC-1.02.01                                                  │
@@ -16,7 +15,7 @@ Banderas   : 🌱 BIBLIA DE LA TIERRA · 💵 EFECTIVO · 🔒 PII
 ```
 
 📌 **¿SABÍAS QUE?**
-El Albacea es la **ÚNICA AUTORIDAD FINAL** de toda la finca. En términos del organismo, es el cerebro. Toma decisiones que ningún otro puesto puede tomar. En sitio el 75% del tiempo.
+El [[HCY-1.02.01 - Puesto: Albacea-Administrador - Executor-Administrator Role]] es la **ÚNICA AUTORIDAD FINAL** de toda la finca. En términos del organismo, es el cerebro. Toma decisiones que ningún otro puesto puede tomar. En sitio el 75% del tiempo.
 
 `EN-[ The Executor is the ONLY final authority of the whole property. In organism terms, it is the brain. It makes decisions no other role can make. On-site 75 percent of the time. ]`
 
@@ -32,10 +31,10 @@ Frecuencia: **PERMANENTE**.
 ### 【 PROCEDURE - PROCEDIMIENTO 】
 **Responsabilidades principales**
 1. **AUTORIDAD FINAL** sobre dinero, personas, huéspedes, tierra y legal.
-2. Dictar y ratificar la **DIRECTRIZ ECOLÓGICA** (Biblia de la Tierra) junto al [[ROLE-Biodynamics-Specialist]] y el [[NODE-Microbiology-Lab]].
-3. Custodiar el **EFECTIVO** 💵 junto al [[ROLE-Operations-Manager]]. Nadie más.
+2. Dictar y ratificar la **DIRECTRIZ ECOLÓGICA** (Biblia de la Tierra) junto al [[BIO-2.07.01 - Especialista Biodinámico - Biodynamics Specialist]] y el Laboratorio de Microbiología.
+3. Custodiar el **EFECTIVO** 💵 junto al Gerente de Operaciones. Nadie más.
 4. Dirigir la estrategia, las mejoras mayores y los ciclos de liquidez.
-5. Supervisar a [[ROLE-Lawyers]], [[ROLE-Accounting-Firm]] y a la entrante [[ROLE-Operator-Company]].
+5. Supervisar a Abogados, Firma Contable y a la entrante Empresa Operadora.
 6. Dar la formación semanal y resolver dudas de todo el equipo.
 7. Aprobar la creación y revisión de todos los SOP.
 
@@ -47,20 +46,20 @@ Por el estatus de albaceazgo, la autoridad y el dinero se concentran en una sola
 `EN-[ Because of executorship status, authority and money concentrate in one figure of highest trust. This protects the underage heirs' estate and prevents leakage. ]`
 
 ### 【 CONSEQUENCE - CONSECUENCIA 】
-1. Si el Albacea no está disponible y no delegó, las decisiones grandes **SE DETIENEN**.
+1. Si el [[HCY-1.02.01 - Puesto: Albacea-Administrador - Executor-Administrator Role]] no está disponible y no delegó, las decisiones grandes **SE DETIENEN**.
 2. Sin su ratificación ecológica, una acción puede **VIOLAR LA BIBLIA DE LA TIERRA** ⚠️.
 
 ### 【 ESCALATION - ESCALAMIENTO 】
-Reporta a: [[ROLE-Owners]] como albacea. Decisión final de todo termina aquí.
+Reporta a: Propietarios como albacea. Decisión final de todo termina aquí.
 
 ### 【 RACI - RACI 】
 | Actividad | DRI | Respaldo | Consultado | Informado |
 |---|---|---|---|---|
 | Decisión final | Executor-Administrator | Operations Manager | Lawyers, Accounting | todo el staff |
-| Directriz ecológica | Executor-Administrator | Biodynamics Specialist | Microbiology Lab | Gardener |
+| Directriz ecológica | Executor-Administrator | [[BIO-2.07.01 - Especialista Biodinámico - Biodynamics Specialist]] | Microbiology Lab | Gardener |
 
 ### 【 BIBLE CHECK - REVISIÓN BIBLIA 】
-✅ APROBADO. §10 el Albacea ratifica la arbitraje del laboratorio. §9 dirige el organismo.
+✅ APROBADO. §10 el [[HCY-1.02.01 - Puesto: Albacea-Administrador - Executor-Administrator Role]] ratifica la arbitraje del laboratorio. §9 dirige el organismo.
 ```
 ```yaml
 sop_id: HRC-1.02.01

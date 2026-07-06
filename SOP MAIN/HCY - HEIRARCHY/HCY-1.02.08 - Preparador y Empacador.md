@@ -1,4 +1,3 @@
-
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │  HRC-1.02.08                                                  │
@@ -31,21 +30,21 @@ Frecuencia: **DIARIO**.
 
 ### 【 PROCEDURE - PROCEDIMIENTO 】
 **Responsabilidades principales**
-1. Lavar y preparar producto según estándar.
+1. Lavar y preparar producto según estándar ↳ see [[HSK-3.07.01]].
 2. Porcionar y empacar para servicio y almacenamiento.
 3. **ETIQUETAR** todo con fecha. Congelar y porcionar excedentes de comida del personal.
 4. Mantener orden y rotación primero en entrar primero en salir.
-5. Separar orgánicos para [[DEPT-WST]].
+5. Separar orgánicos para compostaje.
 
 **Puestos que puede asumir**
-- Apoyo de cocina, empacador, encargado de almacén frío, apoyo de inventario con [[ROLE-Logistics-Manager]].
+- Apoyo de cocina, empacador, encargado de almacén frío, apoyo de inventario con Logistics Manager.
 
 ### 【 CONSEQUENCE - CONSECUENCIA 】
 1. Falta de etiqueta y rotación causa **PRODUCTO ECHADO A PERDER**.
 2. Empaque sucio arriesga la **INOCUIDAD**.
 
 ### 【 ESCALATION - ESCALAMIENTO 】
-Reporta a: [[ROLE-Chef]].
+Reporta a: Chef.
 
 ### 【 BIBLE CHECK - REVISIÓN BIBLIA 】
 ✅ APROBADO. §4 separación, reduce desperdicio hacia el ciclo de residuos.
@@ -64,7 +63,3 @@ critical_system: false
 operator_scope: false
 interlock_pending: true
 ```
-
----
-
-
