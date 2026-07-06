@@ -48,6 +48,22 @@ Reporta a: Chef.
 
 ### 【 BIBLE CHECK - REVISIÓN BIBLIA 】
 ✅ APROBADO. §4 separación, §7 producto orgánico.
+
+### 【 JERARQUÍA - HIERARCHY 】
+
+Capa: **LAYER 2 — EQUIPOS DE DEPARTAMENTO**
+Confianza: **T2 Standard**
+
+**↰ REPORTA A (upstream):**
+- ↰ [[HCY-1.02.06 - Chef]]
+
+**↳ DIRIGE (downstream):**
+- (sin subordinados directos)
+
+**≈ DEPARTAMENTOS CONECTADOS:**
+- [[DEPT-FNB]] · [[DEPT-WST]]
+
+**📋 Mapa completo:** ↳ see [[HCY-1.01.01 - HEIRARCHY]]
 ```
 ```yaml
 sop_id: HRC-1.02.07

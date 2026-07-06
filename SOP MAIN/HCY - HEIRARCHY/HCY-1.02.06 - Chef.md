@@ -56,6 +56,23 @@ Reporta a: Operations Manager. Dirige a [[HCY-1.02.12 - Puesto: Sous Chef / Coci
 
 ### 【 BIBLE CHECK - REVISIÓN BIBLIA 】
 ✅ APROBADO. §7 orgánico, §4 separación de aguas, §9 cierra el ciclo al plato.
+
+### 【 JERARQUÍA - HIERARCHY 】
+
+Capa: **LAYER 2 — EQUIPOS DE DEPARTAMENTO**
+Confianza: **T1 Veteran**
+
+**↰ REPORTA A (upstream):**
+- ↰ [[HCY-1.02.02 - Gerente de Operaciones]]
+
+**↳ DIRIGE (downstream):**
+- ↳ [[HCY-1.02.07 - Sous-Chef y Cocinero]]
+- ↳ [[HCY-1.02.08 - Preparador y Empacador]]
+
+**≈ DEPARTAMENTOS CONECTADOS:**
+- [[DEPT-FNB]] · [[DEPT-WST]] · [[DEPT-BIO]] · [[DEPT-LOG]]
+
+**📋 Mapa completo:** ↳ see [[HCY-1.01.01 - HEIRARCHY]]
 ```
 ```yaml
 sop_id: HCY-1.02.06

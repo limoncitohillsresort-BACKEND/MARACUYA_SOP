@@ -48,6 +48,22 @@ Reporta a: [[BIO-2.07.01]].
 
 ### 【 BIBLE CHECK - REVISIÓN BIBLIA 】
 ✅ APROBADO. §1 §2 §6 §9. Este puesto ejecuta la Biblia de la Tierra a diario.
+
+### 【 JERARQUÍA - HIERARCHY 】
+
+Capa: **LAYER 2 — EQUIPOS DE DEPARTAMENTO**
+Confianza: **T1 Veteran (ecológico-crítico) · T2 Standard (tareas básicas)**
+
+**↰ REPORTA A (upstream):**
+- ↰ [[HCY-1.02.03 - Especialista en Biodinámica]]
+
+**↳ DIRIGE (downstream):**
+- (sin subordinados directos)
+
+**≈ DEPARTAMENTOS CONECTADOS:**
+- [[DEPT-GRD]] · [[DEPT-BIO]] · [[DEPT-WST]] · [[DEPT-INF]]
+
+**📋 Mapa completo:** ↳ see [[HCY-1.01.01 - HEIRARCHY]]
 ```
 ```yaml
 sop_id: HRC-1.02.10

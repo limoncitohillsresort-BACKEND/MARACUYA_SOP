@@ -49,6 +49,25 @@ Reporta a: [[ROLE-Operations-Manager]]. Falla a escala finca escala al [[ROLE-Ex
 
 ### 【 BIBLE CHECK - REVISIÓN BIBLIA 】
 ✅ APROBADO. §4 agua limpia al cebado, §8 protege el suministro, §9 sostiene el organismo.
+
+### 【 JERARQUÍA - HIERARCHY 】
+
+Capa: **LAYER 2 — EQUIPOS DE DEPARTAMENTO**
+Confianza: **T1 Veteran (tarea) · T0 Steward (tiempo de sistemas críticos)**
+
+**↰ REPORTA A (upstream):**
+- ↰ [[HCY-1.02.02 - Gerente de Operaciones]]
+
+**↳ DIRIGE (downstream):**
+- (sin subordinados directos)
+
+**≈ DEPARTAMENTOS CONECTADOS:**
+- [[DEPT-INF]] · [[DEPT-MNT]] · [[DEPT-EMG]] · [[DEPT-BIO]]
+
+**⚠ SISTEMAS CRÍTICOS:**
+- [[NODE-Power]] · [[NODE-Well-Cistern]] · [[NODE-Pools]]
+
+**📋 Mapa completo:** ↳ see [[HCY-1.01.01 - HEIRARCHY]]
 ```
 ```yaml
 sop_id: HRC-1.02.13

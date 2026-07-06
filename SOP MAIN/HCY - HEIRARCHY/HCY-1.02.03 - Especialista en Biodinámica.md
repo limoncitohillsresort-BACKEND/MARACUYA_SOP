@@ -59,6 +59,25 @@ Reporta a: [[HCY-1.02.01]]. Línea directiva a [[HCY-1.01.01]] para temas ecoló
 
 ### 【 BIBLE CHECK - REVISIÓN BIBLIA 】
 ✅ APROBADO. Este puesto ES el custodio de la Biblia de la Tierra. §1 §2 §6 §9 §10.
+
+### 【 JERARQUÍA - HIERARCHY 】
+
+Capa: **LAYER 1 — MANDO OPERATIVO**
+Confianza: **T1 Veteran**
+
+**↰ REPORTA A (upstream):**
+- ↰ [[HCY-1.02.02 - Gerente de Operaciones]]
+- ↰ [[HCY-1.02.01 - Albacea-Administrador]] *(línea directiva al Albacea)*
+
+**↳ DIRIGE (downstream):**
+- ↳ [[HCY-1.02.10 - Jardinero]]
+- ↳ [[HCY-1.02.11 - Encargado de Terreno]]
+- ↳ [[HCY-1.02.12 - Manejo de Residuos]]
+
+**≈ DEPARTAMENTOS CONECTADOS:**
+- [[DEPT-BIO]] · [[DEPT-GRD]] · [[DEPT-WST]] · [[DEPT-INF]]
+
+**📋 Mapa completo:** ↳ see [[HCY-1.01.01 - HEIRARCHY]]
 ```
 ```yaml
 sop_id: HRC-1.02.03

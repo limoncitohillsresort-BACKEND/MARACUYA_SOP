@@ -48,6 +48,22 @@ Reporta a: Logistics Manager. Apoya emergencias con Operations Manager.
 
 ### 【 BIBLE CHECK - REVISIÓN BIBLIA 】
 ✅ APROBADO. Prioriza cargas a granel para reducir viajes y huella.
+
+### 【 JERARQUÍA - HIERARCHY 】
+
+Capa: **LAYER 2 — EQUIPOS DE DEPARTAMENTO**
+Confianza: **T2 Standard**
+
+**↰ REPORTA A (upstream):**
+- ↰ [[HCY-1.02.04 - Gerente de Logística]]
+
+**↳ DIRIGE (downstream):**
+- (sin subordinados directos)
+
+**≈ DEPARTAMENTOS CONECTADOS:**
+- [[DEPT-LOG]] · [[DEPT-FNB]] · [[DEPT-EMG]] · [[DEPT-INF]]
+
+**📋 Mapa completo:** ↳ see [[HCY-1.01.01 - HEIRARCHY]]
 ```
 ```yaml
 sop_id: HRC-1.02.15

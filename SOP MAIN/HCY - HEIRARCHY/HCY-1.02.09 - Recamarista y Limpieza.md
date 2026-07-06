@@ -48,6 +48,22 @@ Reporta a: [[HCY-1.02.01 - Operations Manager]]. Confianza dependiente de sistem
 
 ### 【 BIBLE CHECK - REVISIÓN BIBLIA 】
 ✅ APROBADO. §3 esterilización aprobada, §4 separación de aguas, §5 materiales sin moho.
+
+### 【 JERARQUÍA - HIERARCHY 】
+
+Capa: **LAYER 2 — EQUIPOS DE DEPARTAMENTO**
+Confianza: **T2 Standard**
+
+**↰ REPORTA A (upstream):**
+- ↰ [[HCY-1.02.02 - Gerente de Operaciones]]
+
+**↳ DIRIGE (downstream):**
+- (sin subordinados directos)
+
+**≈ DEPARTAMENTOS CONECTADOS:**
+- [[DEPT-HSK]] · [[DEPT-GST]] · [[DEPT-BIO]] · [[DEPT-WST]] · [[DEPT-INF]]
+
+**📋 Mapa completo:** ↳ see [[HCY-1.01.01 - HEIRARCHY]]
 ```
 ```yaml
 sop_id: HCY-1.02.09

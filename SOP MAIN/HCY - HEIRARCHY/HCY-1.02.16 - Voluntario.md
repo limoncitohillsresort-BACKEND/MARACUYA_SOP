@@ -49,6 +49,22 @@ Reporta a: el supervisor del área asignada. Coordinación general por Operation
 
 ### 【 BIBLE CHECK - REVISIÓN BIBLIA 】
 ✅ APROBADO. Aprende y respeta la Biblia de la Tierra desde el primer día.
+
+### 【 JERARQUÍA - HIERARCHY 】
+
+Capa: **LAYER 3 — FUERZA FLUIDA**
+Confianza: **T3 Volunteer**
+
+**↰ REPORTA A (upstream):**
+- ↰ [[HCY-1.02.02 - Gerente de Operaciones]] *(supervisor del área asignada, coordinación general)*
+
+**↳ DIRIGE (downstream):**
+- (sin subordinados directos)
+
+**≈ DEPARTAMENTOS CONECTADOS:**
+- [[DEPT-GRD]] · [[DEPT-WST]] · [[DEPT-HSK]]
+
+**📋 Mapa completo:** ↳ see [[HCY-1.01.01 - HEIRARCHY]]
 ```
 ```yaml
 sop_id: HRC-1.02.16

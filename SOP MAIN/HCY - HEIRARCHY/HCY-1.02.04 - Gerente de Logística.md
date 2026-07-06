@@ -49,6 +49,22 @@ Reporta a: [[HCY-1.02.01 - Puesto: Gerente de Operaciones - Position: Operations
 
 ### 【 BIBLE CHECK - REVISIÓN BIBLIA 】
 ✅ APROBADO. Prioriza insumos ecológicos y a granel para reducir viajes y empaques.
+
+### 【 JERARQUÍA - HIERARCHY 】
+
+Capa: **LAYER 1 — MANDO OPERATIVO**
+Confianza: **T1 Veteran**
+
+**↰ REPORTA A (upstream):**
+- ↰ [[HCY-1.02.02 - Gerente de Operaciones]]
+
+**↳ DIRIGE (downstream):**
+- ↳ [[HCY-1.02.15 - Chofer y Entregas]]
+
+**≈ DEPARTAMENTOS CONECTADOS:**
+- [[DEPT-LOG]] · [[DEPT-FNB]] · [[DEPT-MNT]] · [[DEPT-INF]]
+
+**📋 Mapa completo:** ↳ see [[HCY-1.01.01 - HEIRARCHY]]
 ```
 ```yaml
 sop_id: HRC-1.02.04

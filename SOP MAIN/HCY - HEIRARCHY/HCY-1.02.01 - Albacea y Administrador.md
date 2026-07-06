@@ -60,6 +60,23 @@ Reporta a: Propietarios como albacea. Decisión final de todo termina aquí.
 
 ### 【 BIBLE CHECK - REVISIÓN BIBLIA 】
 ✅ APROBADO. §10 el [[HCY-1.02.01 - Puesto: Albacea-Administrador - Executor-Administrator Role]] ratifica la arbitraje del laboratorio. §9 dirige el organismo.
+
+### 【 JERARQUÍA - HIERARCHY 】
+
+Capa: **LAYER 0 — GOBERNANZA**
+Confianza: **T0 Steward**
+
+**↰ REPORTA A (upstream):**
+- Propietarios x4 (T4 — sin SOP propio)
+
+**↳ DIRIGE (downstream):**
+- ↳ [[HCY-1.02.02 - Gerente de Operaciones]]
+- ↳ [[HCY-1.02.05 - Apoyo Legal y Financiero]]
+
+**≈ DEPARTAMENTOS CONECTADOS:**
+- [[DEPT-ADM]] · [[DEPT-BIO]] · [[DEPT-EMG]] · [[DEPT-INF]] · [[DEPT-HRC]]
+
+**📋 Mapa completo:** ↳ see [[HCY-1.01.01 - HEIRARCHY]]
 ```
 ```yaml
 sop_id: HRC-1.02.01

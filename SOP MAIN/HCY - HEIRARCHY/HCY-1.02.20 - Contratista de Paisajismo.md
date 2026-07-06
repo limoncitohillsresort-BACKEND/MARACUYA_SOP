@@ -47,6 +47,22 @@ Reporta a: [[BIO-2.07.01 - Biodynamics Specialist]] y [[HCY-1.02.01 - Operations
 
 ### 【 BIBLE CHECK - REVISIÓN BIBLIA 】
 ✅ APROBADO. §1 §2 §6 §10. Subordinado por completo a la Biblia de la Tierra.
+
+### 【 JERARQUÍA - HIERARCHY 】
+
+Capa: **LAYER 3 — FUERZA FLUIDA**
+Confianza: **T3 Volunteer**
+
+**↰ REPORTA A (upstream):**
+- ↰ [[HCY-1.02.03 - Especialista en Biodinámica]]
+
+**↳ DIRIGE (downstream):**
+- (sin subordinados directos)
+
+**≈ DEPARTAMENTOS CONECTADOS:**
+- [[DEPT-GRD]] · [[DEPT-BIO]]
+
+**📋 Mapa completo:** ↳ see [[HCY-1.01.01 - HEIRARCHY]]
 ```
 ```yaml
 sop_id: HRC-1.02.20

@@ -46,6 +46,22 @@ Reporta a: [[HCY-1.02.14 - Guardia de Seguridad - Security Guard]] y [[HCY-1.02.
 
 ### 【 BIBLE CHECK - REVISIÓN BIBLIA 】
 ✅ APROBADO. Sin impacto ecológico. Respeta el sitio y la fauna.
+
+### 【 JERARQUÍA - HIERARCHY 】
+
+Capa: **LAYER 3 — FUERZA FLUIDA**
+Confianza: **T3 Volunteer**
+
+**↰ REPORTA A (upstream):**
+- ↰ [[HCY-1.02.14 - Guardia de Seguridad]]
+
+**↳ DIRIGE (downstream):**
+- (sin subordinados directos)
+
+**≈ DEPARTAMENTOS CONECTADOS:**
+- [[DEPT-SEC]]
+
+**📋 Mapa completo:** ↳ see [[HCY-1.01.01 - HEIRARCHY]]
 ```
 ```yaml
 sop_id: HRC-1.02.18

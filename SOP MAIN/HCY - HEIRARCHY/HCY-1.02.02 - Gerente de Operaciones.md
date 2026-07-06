@@ -61,6 +61,27 @@ Reporta a: [[HCY-1.01.01 - Albacea - Executor Administrator]]. Dirige a todos lo
 
 ### 【 BIBLE CHECK - REVISIÓN BIBLIA 】
 ✅ APROBADO. Coordina sin contradecir la directriz ecológica del especialista ≈ related [[BIO-2.07.01 - Especialista en Conservación - Conservation Specialist]].
+
+### 【 JERARQUÍA - HIERARCHY 】
+
+Capa: **LAYER 1 — MANDO OPERATIVO**
+Confianza: **T0 Steward**
+
+**↰ REPORTA A (upstream):**
+- ↰ [[HCY-1.02.01 - Albacea-Administrador]]
+
+**↳ DIRIGE (downstream):**
+- ↳ [[HCY-1.02.03 - Especialista en Biodinámica]]
+- ↳ [[HCY-1.02.04 - Gerente de Logística]]
+- ↳ [[HCY-1.02.06 - Chef]]
+- ↳ [[HCY-1.02.09 - Recamarista y Limpieza]]
+- ↳ [[HCY-1.02.13 - Mantenimiento]]
+- ↳ [[HCY-1.02.14 - Guardia de Seguridad]]
+
+**≈ DEPARTAMENTOS CONECTADOS:**
+- [[DEPT-GST]] · [[DEPT-HSK]] · [[DEPT-FNB]] · [[DEPT-SEC]] · [[DEPT-LOG]] · [[DEPT-EMG]] · [[DEPT-MNT]] · [[DEPT-INF]]
+
+**📋 Mapa completo:** ↳ see [[HCY-1.01.01 - HEIRARCHY]]
 ```
 ```yaml
 sop_id: HRC-1.02.02

@@ -47,6 +47,22 @@ Reporta a: Operations Manager. Coordina con Maintenance. Vetado por Executor Adm
 
 ### 【 BIBLE CHECK - REVISIÓN BIBLIA 】
 ✅ APROBADO. §5 materiales ecológicos, §9 protege el organismo durante la obra.
+
+### 【 JERARQUÍA - HIERARCHY 】
+
+Capa: **LAYER 3 — FUERZA FLUIDA**
+Confianza: **T3 Volunteer**
+
+**↰ REPORTA A (upstream):**
+- ↰ [[HCY-1.02.13 - Mantenimiento]]
+
+**↳ DIRIGE (downstream):**
+- (sin subordinados directos)
+
+**≈ DEPARTAMENTOS CONECTADOS:**
+- [[DEPT-INF]] · [[DEPT-MNT]]
+
+**📋 Mapa completo:** ↳ see [[HCY-1.01.01 - HEIRARCHY]]
 ```
 ```yaml
 sop_id: HRC-1.02.19

@@ -49,6 +49,22 @@ Reporta a: Biodynamics Specialist ↳ see [[HSK-3.07.01 - Especialista en Biodin
 
 ### 【 BIBLE CHECK - REVISIÓN BIBLIA 】
 ✅ APROBADO. §2 fertilizante biodinámico, §4 separación, §9 cierra el ciclo.
+
+### 【 JERARQUÍA - HIERARCHY 】
+
+Capa: **LAYER 2 — EQUIPOS DE DEPARTAMENTO**
+Confianza: **T2 Standard · T1 Veteran (quemas de biochar)**
+
+**↰ REPORTA A (upstream):**
+- ↰ [[HCY-1.02.03 - Especialista en Biodinámica]]
+
+**↳ DIRIGE (downstream):**
+- (sin subordinados directos)
+
+**≈ DEPARTAMENTOS CONECTADOS:**
+- [[DEPT-WST]] · [[DEPT-BIO]] · [[DEPT-GRD]] · [[DEPT-FNB]]
+
+**📋 Mapa completo:** ↳ see [[HCY-1.01.01 - HEIRARCHY]]
 ```
 ```yaml
 sop_id: HCY-1.02.12

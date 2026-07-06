@@ -48,6 +48,22 @@ Reporta a: [[HCY-1.02.02 - Puesto Especialista en Biodinámica - Biodynamics Spe
 
 ### 【 BIBLE CHECK - REVISIÓN BIBLIA 】
 ✅ APROBADO. §6 barreras biológicas y aromáticas, §8 corrientes de agua.
+
+### 【 JERARQUÍA - HIERARCHY 】
+
+Capa: **LAYER 2 — EQUIPOS DE DEPARTAMENTO**
+Confianza: **T2 Standard**
+
+**↰ REPORTA A (upstream):**
+- ↰ [[HCY-1.02.03 - Especialista en Biodinámica]]
+
+**↳ DIRIGE (downstream):**
+- (sin subordinados directos)
+
+**≈ DEPARTAMENTOS CONECTADOS:**
+- [[DEPT-GRD]] · [[DEPT-EMG]] · [[DEPT-INF]] · [[DEPT-SEC]]
+
+**📋 Mapa completo:** ↳ see [[HCY-1.01.01 - HEIRARCHY]]
 ```
 ```yaml
 sop_id: HRC-1.02.11

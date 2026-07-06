@@ -46,6 +46,19 @@ Reporta a: el jefe del departamento asignado. Coordinación por Operations Manag
 
 ### 【 BIBLE CHECK - REVISIÓN BIBLIA 】
 ✅ APROBADO. Hereda el cumplimiento de la Biblia del puesto que cubre.
+
+### 【 JERARQUÍA - HIERARCHY 】
+
+Capa: **LAYER 3 — FUERZA FLUIDA**
+Confianza: **T2 Standard / T3 Volunteer (según rol)**
+
+**↰ REPORTA A (upstream):**
+- ↰ [[HCY-1.02.02 - Gerente de Operaciones]] *(supervisor del área asignada)*
+
+**↳ DIRIGE (downstream):**
+- (sin subordinados directos)
+
+**📋 Mapa completo:** ↳ see [[HCY-1.01.01 - HEIRARCHY]]
 ```
 ```yaml
 sop_id: HRC-1.02.21

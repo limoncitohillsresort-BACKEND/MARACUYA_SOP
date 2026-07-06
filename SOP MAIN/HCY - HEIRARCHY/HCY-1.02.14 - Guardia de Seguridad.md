@@ -49,6 +49,22 @@ Reporta a: [[HCY-1.02.01 - Operations Manager]]. Da la alarma en cualquier emerg
 
 ### 【 BIBLE CHECK - REVISIÓN BIBLIA 】
 ✅ APROBADO. Protege el sitio sin métodos químicos ni acciones contra la Biblia.
+
+### 【 JERARQUÍA - HIERARCHY 】
+
+Capa: **LAYER 2 — EQUIPOS DE DEPARTAMENTO**
+Confianza: **T1 Veteran (tarea) · T0 Steward (dron y evacuación)**
+
+**↰ REPORTA A (upstream):**
+- ↰ [[HCY-1.02.02 - Gerente de Operaciones]]
+
+**↳ DIRIGE (downstream):**
+- (sin subordinados directos)
+
+**≈ DEPARTAMENTOS CONECTADOS:**
+- [[DEPT-SEC]] · [[DEPT-GST]] · [[DEPT-EMG]] · [[DEPT-INF]]
+
+**📋 Mapa completo:** ↳ see [[HCY-1.01.01 - HEIRARCHY]]
 ```
 ```yaml
 sop_id: HRC-1.02.14

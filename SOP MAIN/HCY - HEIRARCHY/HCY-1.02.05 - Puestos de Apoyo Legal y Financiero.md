@@ -49,6 +49,22 @@ Todos reportan a: Executor Administrator. [ALCANCE COMPAÑÍA OPERADORA].
 
 ### 【 BIBLE CHECK - REVISIÓN BIBLIA 】
 ✅ APROBADO. Soporte administrativo, sin impacto ecológico directo.
+
+### 【 JERARQUÍA - HIERARCHY 】
+
+Capa: **LAYER 0 — GOBERNANZA**
+Confianza: **T0 Steward**
+
+**↰ REPORTA A (upstream):**
+- ↰ [[HCY-1.02.01 - Albacea-Administrador]]
+
+**↳ DIRIGE (downstream):**
+- (sin subordinados directos)
+
+**≈ DEPARTAMENTOS CONECTADOS:**
+- [[DEPT-ADM]] · [[DEPT-HRC]] · [[DEPT-SEC]]
+
+**📋 Mapa completo:** ↳ see [[HCY-1.01.01 - HEIRARCHY]]
 ```
 ```yaml
 sop_id: HRC-1.02.05
