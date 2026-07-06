@@ -1,4 +1,3 @@
-
 ---
 
 ```
@@ -16,7 +15,7 @@
 | SOP No. | MNT-2.03.01 |
 | Título | Uso correcto de los minisplits en las villas |
 | Versión | 1.0 · Creado: 2026-01-15 · Próxima revisión: 2026-07-15 |
-| Dueño (DRI) | Maintenance |
+| Dueño (DRI) | [[MNT-02.03.01 - MINISPLIT USAGE]] |
 | Confianza | **T2** para configuración de rutina. El manejo de un equipo congelado o con falla es **T1**. |
 | Banderas | ⛑ SEGURIDAD |
 
@@ -43,7 +42,7 @@ Explicar cómo configurar los minisplits Mirage de las villas para dar frescura 
 ## 【 SCOPE - ALCANCE 】
 
 - **Incluye:** Configuración de recámaras en modo DRY. Configuración de sala en modo COOL. Explicación al huésped. Revisión básica antes de la llegada.
-- **Excluye:** Reparación de compresor, recarga de gas refrigerante, descongelamiento profundo con falla eléctrica (↳ INF-3.xx), limpieza técnica del serpentín.
+- **Excluye:** Reparación de compresor, recarga de gas refrigerante, descongelamiento profundo con falla eléctrica (↳ [[INF-3.02.01 - IT INFRASTRUCTURE]]), limpieza técnica del serpentín.
 - **Frecuencia:** ON EVENT (antes de cada llegada) y ON EMERGENCY (queja de huésped por falta de frío).
 
 > [!NOTE]
@@ -164,7 +163,7 @@ Antes de empezar necesitas:
 
 - Si el huésped puso 18°C en Turbo y se queja de calor: cambia a modo DRY 22°C, revisa que no haya hielo en el serpentín.
 - Si el equipo bota aire caliente y hay hielo visible en las rejillas: pasa a **FAN ONLY** en velocidad alta para descongelar. Escala a **T1**.
-- Si sigue sin enfriar después de descongelar: escala a Maintenance especialista. Puede ser falla de gas o compresor (↳ INF-3.xx).
+- Si sigue sin enfriar después de descongelar: escala a [[MNT-3.03.02 - EQUIPMENT SPECIALIST]]. Puede ser falla de gas o compresor (↳ [[INF-3.02.01 - IT INFRASTRUCTURE]]).
 - Si la villa corre con inversor por corte de CFE: no enciendas todos los equipos a la vez. Consulta al Operations Manager (**T0**).
 
 ---
@@ -221,9 +220,9 @@ Los minisplits inverter no funcionan como el acelerador de un carro. El aire que
 
 ## 【 ESCALATION - ESCALAMIENTO 】
 
-- **Primera respuesta y ajuste:** cualquier personal de Housekeeping o Maintenance presente (T2).
-- **Equipo congelado o sin enfriar tras descongelar:** Maintenance veterano (T1).
-- **Falla de gas, compresor o eléctrica:** Maintenance especialista y Operations Manager (↳ INF-3.xx).
+- **Primera respuesta y ajuste:** cualquier personal de [[HSK-3.07.01 - HOUSEKEEPING LEAD]] o [[MNT-02.03.01 - MINISPLIT USAGE]] presente (T2).
+- **Equipo congelado o sin enfriar tras descongelar:** [[MNT-3.03.02 - EQUIPMENT SPECIALIST]] veterano (T1).
+- **Falla de gas, compresor o eléctrica:** [[MNT-3.03.02 - EQUIPMENT SPECIALIST]] y Operations Manager (↳ [[INF-3.02.01 - IT INFRASTRUCTURE]]).
 - **Decisión de encender equipos durante corte de CFE:** Operations Manager (T0).
 - **Compensación al huésped por incomodidad:** solo Operations Manager o Executor. **NUNCA** ofrezcas dinero. 💵
 
@@ -233,11 +232,11 @@ Los minisplits inverter no funcionan como el acelerador de un carro. El aire que
 
 | Actividad | DRI | Respaldo | Consultado | Informado |
 |---|---|---|---|---|
-| Configuración pre-llegada | Housekeeping | Maintenance | — | Operations Manager |
-| Explicación al huésped | Concierge | Housekeeping | — | — |
-| Descongelamiento de serpentín | Maintenance | — | Operations Manager | Executor |
-| Falla técnica mayor | Maintenance especialista | Operations Manager | — | Executor |
-| Encendido durante corte CFE | Operations Manager | Executor | Maintenance | — |
+| Configuración pre-llegada | [[HSK-3.07.01 - HOUSEKEEPING LEAD]] | [[MNT-02.03.01 - MINISPLIT USAGE]] | — | Operations Manager |
+| Explicación al huésped | Concierge | [[HSK-3.07.01 - HOUSEKEEPING LEAD]] | — | — |
+| Descongelamiento de serpentín | [[MNT-02.03.01 - MINISPLIT USAGE]] | — | Operations Manager | Executor |
+| Falla técnica mayor | [[MNT-3.03.02 - EQUIPMENT SPECIALIST]] | Operations Manager | — | Executor |
+| Encendido durante corte CFE | Operations Manager | Executor | [[MNT-02.03.01 - MINISPLIT USAGE]] | — |
 
 ---
 
@@ -304,7 +303,7 @@ Frase de oro: **el aire seco enfría, el aire húmedo pega.**
 | Frente | Reverso |
 |---|---|
 | ¿Qué modo usa la recámara? | DRY 💧 a 22-23°C |
-| ¿Qué modo usa la sala? | COOL ❄️ a 22°C, ventilador medio |
+| ¿Qu�� modo usa la sala? | COOL ❄️ a 22°C, ventilador medio |
 | ¿Por qué no 18°C Turbo? | Congela el serpentín y deja de enfriar |
 | ¿Por qué DRY enfría mejor? | Quita la humedad que hace sentir calor |
 | ¿Puedo subir el ventilador en DRY? | No, el Mirage lo bloquea en bajo a propósito |
@@ -315,7 +314,7 @@ Frase de oro: **el aire seco enfría, el aire húmedo pega.**
 
 - **P1.** (5 XP) b) 22-23°C en modo DRY 💧.
 - **P2.** (3 XP) FALSO. El aire sale igual de frío. Solo obliga al compresor a trabajar más tiempo.
-- **P3.** (10 XP) Cambia el equipo a modo DRY 22°C. Revisa si hay hielo en el serpentín. Si hay hielo, pasa a FAN ONLY para descongelar. Cierra puertas y ventanas. Explica la regla de 15 minutos. Si no enfría tras descongelar, escala a Maintenance.
+- **P3.** (10 XP) Cambia el equipo a modo DRY 22°C. Revisa si hay hielo en el serpentín. Si hay hielo, pasa a FAN ONLY para descongelar. Cierra puertas y ventanas. Explica la regla de 15 minutos. Si no enfría tras descongelar, escala a [[MNT-3.03.02 - EQUIPMENT SPECIALIST]].
 - **P4.** (10 XP) Equipo: el serpentín se congela en bloque y bota aire caliente, acortando su vida. Huésped: siente un cuarto frío y húmedo tipo cueva mojada, y se queja.
 - **P5.** (8 XP) La sala tiene mucho paso de gente. La puerta se abre seguido y entra humedad. No se puede sellar para el modo DRY. El modo COOL da una barrera de frío constante sin sobrecargar el equipo.
 

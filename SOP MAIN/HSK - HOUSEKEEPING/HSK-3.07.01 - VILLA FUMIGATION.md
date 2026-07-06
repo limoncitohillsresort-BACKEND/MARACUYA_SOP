@@ -1,4 +1,3 @@
-
 ---
 
 ```
@@ -14,7 +13,7 @@
 SOP No.    : HSK-3.07.01
 Título     : Barrera aromática de aceites esenciales contra alacranes
 Versión    : 1.0   Creado: 2025-06-15   Próxima revisión: 2025-12-15
-Dueño (DRI): Housekeeping (con Biodynamics Specialist)
+Dueño (DRI): [[HSK-3.00.00 - Housekeeping]] (con [[BIO-2.07.01 - Biodynamics Specialist]])
 Confianza  : T1 para preparación y aplicación. La decisión de CUÁNDO tratar una villa es T0.
 Banderas   : ⚠ SISTEMA CRÍTICO | 🌱 BIBLIA DE LA TIERRA | ⛑ SEGURIDAD
 ```
@@ -34,7 +33,7 @@ EN-[ Protect guests from scorpion and spider stings using a plant-oil barrier, w
 Incluye: Preparación de la fórmula botánica, aplicación en perímetros y puntos de entrada,
          sellado de villa por 72 horas, limpieza secundaria de plagas muertas.
 Excluye: Fumigación con químicos sintéticos (PROHIBIDA, ver §22),
-         tratamiento a plantas vivas ↳ GRD-2.08.xx, control con aves ↰ BIO-3.xx.xx.
+         tratamiento a plantas vivas ↳ see [[GRD-2.08.00]], control con aves ↰ feeds [[BIO-2.07.01]].
 Frecuencia: CYCLICAL. Capa base pesada cada 6 meses. Mantenimiento cada 8 a 12 semanas
             según temporada seca o húmeda.
 ```
@@ -46,7 +45,7 @@ Antes de empezar necesitas:
 - Respirador de vapor orgánico con cartuchos OV/P100. Un cubrebocas N95 NO sirve.
 - Guantes de nitrilo y lentes de seguridad de policarbonato.
 - Confirmar que la villa estará vacía por al menos 4 días completos.
-- Permiso de arranque del Operations Manager para bloquear la villa.
+- Permiso de arranque del [[ADM-1.00.00 - Operations Manager]] para bloquear la villa.
 - Aceites certificados 100% puros con hoja GC/MS del proveedor.
 
 EN-[ Need full training in safe handling of concentrated oils, an organic vapor respirator with OV/P100 cartridges (N95 does not work), nitrile gloves and polycarbonate goggles, a villa empty for at least 4 full days, manager permission, and certified pure oils with a GC/MS sheet. ]
@@ -64,7 +63,7 @@ EN-[ Need full training in safe handling of concentrated oils, an organic vapor 
 | Guantes de nitrilo y lentes | resistentes a químicos | Locker de seguridad |
 | Cilindro graduado | 50 mL para aceites, 500 mL para linaza | Estación de mezcla |
 | Alcohol isopropílico | 90% o más, para limpieza de jeringas | Estación de mezcla |
-| MultiClean desengrasante | para limpiar superficies y puntas | Estación de mezcla |
+| [[MNT-3.03.02 - MultiClean]] desengrasante | para limpiar superficies y puntas | Estación de mezcla |
 
 **NUNCA USAR JERINGAS DE PLÁSTICO** ⛔ El aceite crudo de canela y cítrico disuelve el émbolo de plástico y agrega microplástico a la mezcla.
 
@@ -95,7 +94,7 @@ Paso 0. Antes de cualquier acción, confirma:
 - No hay familias con bebés ni huéspedes embarazadas programadas en los próximos días. Embarazadas necesitan 5 días de ventilación. Bebés necesitan 72 horas de margen.
 - Cubeta de agua lista para sumergir trapos aceitosos de inmediato.
 
-Esta es una tarea **T1**, pero la decisión de CUÁNDO tratar una villa es **T0**. Aplicar en el momento equivocado con un huésped cerca es un **RIESGO REAL A LA SALUD** ☠️. La autoridad de tiempo es del Operations Manager o el Executor.
+Esta es una tarea **T1**, pero la decisión de CUÁNDO tratar una villa es **T0**. Aplicar en el momento equivocado con un huésped cerca es un **RIESGO REAL A LA SALUD** ☠️. La autoridad de tiempo es del [[ADM-1.00.00 - Operations Manager]] o el [[ADM-4.00.00 - Executor]].
 
 【 PROCEDURE - PROCEDIMIENTO 】
 
@@ -208,7 +207,7 @@ EN-[ PROCEDURE SUMMARY: Measure 75 mL cinnamon plus five 25 mL oils into 200 mL 
 ```
 Si el aceite deja anillo grasoso en papel tras 24 h  entonces está diluido, RECHAZA el lote.
 Si el neem está sólido o pastoso                     entonces caliéntalo a 22 grados antes de medir.
-Si hay huésped, bebé o embarazada en 4 días          entonces NO trates, escala al Operations Manager.
+Si hay huésped, bebé o embarazada en 4 días          entonces NO trates, escala al [[ADM-1.00.00 - Operations Manager]].
 Si hay gato o mascota en la propiedad                entonces sella la villa por completo, riesgo mortal felino.
 Si la boquilla escupe chorro en vez de niebla        entonces re-presuriza y ajusta la boquilla.
 Si el líquido se separa en capas                     entonces reagita, revisa que no entró agua.
@@ -223,7 +222,7 @@ Esta fórmula no mata al instante. Actúa como un irritante fuerte que ataca el 
 
 ¿Por qué mandarina y neem? El d-limoneno de la mandarina disuelve la cera que protege al insecto y lo seca. El neem espeso tapa los espiráculos y ahoga a la plaga.
 
-Conexión con el sistema. Menos alacranes cerca de las casas significa menos picaduras de huéspedes y menos activación de la respuesta de emergencia ↳ EMG-1.04.02. Menos insectos baja la carga de limpieza ↳ HSK-2.xx.
+Conexión con el sistema. Menos alacranes cerca de las casas significa menos picaduras de huéspedes y menos activación de la respuesta de emergencia ↳ see [[EMG-1.04.00]]. Menos insectos baja la carga de limpieza ↳ see [[HSK-2.00.00]].
 
 EN-[ This formula does not kill instantly. It is a strong irritant hitting the pest nervous system, respecting Bible point 6 that bans chemical fumigation. Cinnamon binds octopamine receptors causing uncontrolled nerve firing. Boiled linseed oil hardens into a film that slowly releases the oils for weeks. Mandarin d-limonene dissolves the protective wax and neem blocks breathing holes. Fewer scorpions means fewer guest stings and less cleaning load. ]
 
@@ -233,7 +232,7 @@ EN-[ This formula does not kill instantly. It is a strong irritant hitting the p
 2. Usar aceites de fragancia en vez de puros da **CERO PROTECCIÓN** ⛔ contra plagas y arruina la película de linaza.
 3. Dejar trapos aceitosos amontonados causa **INCENDIO ESPONTÁNEO** ☠️. La linaza libera calor al oxidarse y puede arder sola.
 4. Aplicar con un gato en la propiedad causa **FALLA HEPÁTICA FELINA** ☠️. El gato no puede procesar los aceites y muere al lamerse.
-5. Aplicar con huésped presente causa broncoespasmo, dermatitis y quejas. Daña la reputación de MARACUYA y trae reseñas negativas.
+5. Aplicar con huésped presente causa broncoespasmo, dermatitis y quejas. Daña la reputación de [[MARACUYA]] y trae reseñas negativas.
 6. No hacer la limpieza secundaria deja plagas muertas visibles para el huésped. Experiencia arruinada.
 
 EN-[ Applying to glass, granite, or varnished wood causes permanent damage. Fragrance oils give zero pest protection. Piled oily rags can self-ignite. A cat on the property can suffer fatal liver failure. Applying with a guest present causes bronchospasm and complaints. Skipping cleanup leaves dead pests in view. ]
@@ -243,7 +242,7 @@ EN-[ Applying to glass, granite, or varnished wood causes permanent damage. Frag
 Temporada seca (noviembre a mayo): mantenimiento cada 12 semanas, 250 mL por villa.
 Temporada húmeda (junio a octubre): mantenimiento cada 8 semanas, 250 mL, la lluvia lava
   los aceites ligeros más rápido.
-Corte de CFE durante el sellado: el sello y la saturación siguen sin electricidad, no
+Corte de [[INF-3.02.01 - CFE]] durante el sellado: el sello y la saturación siguen sin electricidad, no
   afecta el proceso.
 Gato o mascota residente presente: HARD STOP, no trates hasta sellar la villa por completo.
 Huésped embarazada asignada a la villa: HARD STOP, requiere 5 días de ventilación total.
@@ -251,22 +250,22 @@ Familia con bebé menor de 2 años: no trates dentro de las 72 horas antes de su
 ```
 
 【 ESCALATION - ESCALAMIENTO 】
-- Primera decisión de tratar una villa: **T0**, Operations Manager o Executor autorizan el tiempo.
-- Falla de sistema crítico o daño a superficie premium: escala de inmediato al Operations Manager, luego al **Executor-Administrator**.
-- Huésped con reacción alérgica o respiratoria: activa la respuesta médica ↳ EMG-1.04.02. NO ofrezcas dinero.
-- Compra de aceites y proveedor: Operations Manager aprueba. 💵 solo T0 maneja dinero.
-- Duda sobre pureza del aceite o conflicto con la Biblia de la Tierra: consulta al Biodynamics Specialist. El laboratorio decide y el Executor ratifica.
+- Primera decisión de tratar una villa: **T0**, [[ADM-1.00.00 - Operations Manager]] o [[ADM-4.00.00 - Executor]] autorizan el tiempo.
+- Falla de sistema crítico o daño a superficie premium: escala de inmediato al [[ADM-1.00.00 - Operations Manager]], luego al **[[ADM-4.00.00 - Executor-Administrator]]**.
+- Huésped con reacción alérgica o respiratoria: activa la respuesta médica ↳ see [[EMG-1.04.00]]. NO ofrezcas dinero.
+- Compra de aceites y proveedor: [[ADM-1.00.00 - Operations Manager]] aprueba. 💵 solo T0 maneja dinero.
+- Duda sobre pureza del aceite o conflicto con la Biblia de la Tierra: consulta al [[BIO-2.07.01 - Biodynamics Specialist]]. El laboratorio decide y el [[ADM-4.00.00 - Executor]] ratifica.
 
 【 RACI - RACI 】
 
 | Actividad | DRI | Respaldo | Consultado | Informado |
 |-----------|-----|----------|------------|-----------|
-| Preparación de la fórmula | Housekeeping | Maintenance | Biodynamics Specialist | Operations Manager |
-| Decisión de cuándo tratar | Operations Manager | Executor | Housekeeping | — |
-| Aplicación en la villa | Housekeeping | Maintenance | — | Operations Manager |
-| Sellado y ventilación | Housekeeping | Groundskeeper | — | Operations Manager |
-| Limpieza secundaria de plagas | Housekeeping | — | — | Operations Manager |
-| Compra de aceites certificados | Operations Manager | Executor | Biodynamics Specialist | — |
+| Preparación de la fórmula | [[HSK-3.00.00 - Housekeeping]] | [[MNT-02.03.01 - Maintenance]] | [[BIO-2.07.01 - Biodynamics Specialist]] | [[ADM-1.00.00 - Operations Manager]] |
+| Decisión de cuándo tratar | [[ADM-1.00.00 - Operations Manager]] | [[ADM-4.00.00 - Executor]] | [[HSK-3.00.00 - Housekeeping]] | — |
+| Aplicación en la villa | [[HSK-3.00.00 - Housekeeping]] | [[MNT-02.03.01 - Maintenance]] | — | [[ADM-1.00.00 - Operations Manager]] |
+| Sellado y ventilación | [[HSK-3.00.00 - Housekeeping]] | [[GRD-2.00.00 - Groundskeeper]] | — | [[ADM-1.00.00 - Operations Manager]] |
+| Limpieza secundaria de plagas | [[HSK-3.00.00 - Housekeeping]] | — | — | [[ADM-1.00.00 - Operations Manager]] |
+| Compra de aceites certificados | [[ADM-1.00.00 - Operations Manager]] | [[ADM-4.00.00 - Executor]] | [[BIO-2.07.01 - Biodynamics Specialist]] | — |
 
 【 MEASUREMENT - MEDICIÓN 】
 
@@ -286,7 +285,7 @@ Familia con bebé menor de 2 años: no trates dentro de las 72 horas antes de su
 - §4 Corrientes de agua separadas por destino: el aceite aplicado en perímetros exteriores podría escurrir a corrientes de sustrato vivo con lluvia. Necesita revisión.
 - §10 Ninguna acción neutral: el sellado por fumigación de vapor debe evaluarse contra el término "fumigante" prohibido en §1.
 
-**Nota de control:** Este SOP se detiene y se marca para revisión del Biodynamics Specialist y el laboratorio de microbiología. Preguntas abiertas: (1) ¿Se puede sustituir la linaza hervida con siccantes por linaza cruda polimerizada de forma natural, alineada con §5 materiales neutrales? (2) ¿El escurrimiento perimetral con lluvia contamina la microbiota de sustrato vivo bajo §4? El Executor debe ratificar antes de aprobar para uso general.
+**Nota de control:** Este SOP se detiene y se marca para revisión del [[BIO-2.07.01 - Biodynamics Specialist]] y el laboratorio de microbiología. Preguntas abiertas: (1) ¿Se puede sustituir la linaza hervida con siccantes por linaza cruda polimerizada de forma natural, alineada con §5 materiales neutrales? (2) ¿El escurrimiento perimetral con lluvia contamina la microbiota de sustrato vivo bajo §4? El [[ADM-4.00.00 - Executor]] debe ratificar antes de aprobar para uso general.
 
 【 SUMMARY - RESUMEN 】
 Lo que nunca debes olvidar:
@@ -320,7 +319,7 @@ P2. Verdadero o Falso (3 XP). Los aceites de fragancia o perfume funcionan igual
 
 P3. Verdadero o Falso (3 XP). Los trapos aceitosos con linaza se pueden dejar amontonados sin riesgo.
 
-P4. Escenario (10 XP). Vas a tratar una villa mañana. El Operations Manager te avisa que llega una familia con un bebé en 2 días y tienen un gato. ¿Qué haces y a quién avisas?
+P4. Escenario (10 XP). Vas a tratar una villa mañana. El [[ADM-1.00.00 - Operations Manager]] te avisa que llega una familia con un bebé en 2 días y tienen un gato. ¿Qué haces y a quién avisas?
 
 P5. Cadena de sistema (10 XP). Nombra dos consecuencias de aplicar la fórmula sobre una barra de granito de cocina.
 
@@ -334,7 +333,7 @@ P2. FALSO. Las fragancias son petroquímicos sintéticos, no tienen valor contra
 
 P3. FALSO. La linaza libera calor al oxidarse y los trapos pueden arder solos. Deben ir al agua de inmediato. (3 XP)
 
-P4. HARD STOP, no trates la villa. El bebé necesita 72 horas de margen y el gato tiene riesgo mortal por los aceites. Avisa al Operations Manager y reprograma. La decisión de tiempo es T0. (10 XP)
+P4. HARD STOP, no trates la villa. El bebé necesita 72 horas de margen y el gato tiene riesgo mortal por los aceites. Avisa al [[ADM-1.00.00 - Operations Manager]] y reprograma. La decisión de tiempo es T0. (10 XP)
 
 P5. Uno: los terpenos ácidos y las resinas dejan manchas grasosas oscuras permanentes que arruinan el acabado de lujo. Dos: la linaza se endurece sobre la piedra y no se limpia con productos normales. (10 XP)
 
@@ -391,8 +390,4 @@ interlock_pending: true
 
 ---
 
-**Formatter note:** This entry was built as a **TYPE 6 CRITICAL SYSTEM** profile at **T1** trust tier, emitted in the fixed master section order (S01→S29), in **BI** language mode. The mandatory Safety Gate (S09) and Measurement (S21) are included per the critical-system profile, and escalation routes to the Executor.
-
-**Critical flag for your review:** The **BIBLE CHECK returned ❌ MARCADO**, not approved. Per Section 4 and the Prime Directive ("When in doubt, the land wins"), this SOP must be reviewed by the Biodynamics Specialist and ratified by the Executor before general use, because (1) boiled linseed oil contains synthetic metal siccatives that may violate §1, and (2) the sealed-vapor method invokes the word "fumigant," which §1 prohibits. `interlock_pending: true` and `bible_check: flag` are set accordingly. No System Interlock block was written, as that is generated only by `interlock_updater.py` on HEAD covers.
-
-Would you like me to (a) draft the flagged-item resolution memo for the Biodynamics Specialist, or (b) generate the companion **HEAD cover** for the Housekeeping role so the interlock script has an anchor node?
+**Formatter note:** This entry was built as a **TYPE 6 CRITICAL SYSTEM** profile at **T1** trust tier, emitted in the fixed master section order (S01→S29), in **BI** language mode. The mandatory Safety Gate (

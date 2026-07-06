@@ -1,6 +1,3 @@
-
----
-
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │  MNT-3.03.02   ⚠ SISTEMA CRÍTICO                              │
@@ -16,11 +13,11 @@
 | SOP No. | MNT-3.03.02 |
 | Título | Limpieza profunda y mantenimiento interno del minisplit |
 | Versión | 1.0 · Creado: 2026-01-15 · Próxima revisión: 2026-07-15 |
-| Dueño (DRI) | Maintenance especialista |
+| Dueño (DRI) | [[MNT-3.03.00 - Maintenance especialista]] |
 | Confianza | **T1** para la ejecución. El corte de energía y el permiso de arranque son **T0**. Trabajo con gas refrigerante es solo técnico certificado. |
 | Banderas | ⚠ SISTEMA CRÍTICO · ⛑ SEGURIDAD |
 
-> Continuación de **MNT-2.03.01** (uso correcto del minisplit por el huésped). Este SOP cubre la limpieza y reparación técnica que hace el equipo de Maintenance.
+> Continuación de **[[MNT-02.03.01]]** (uso correcto del minisplit por el huésped). Este SOP cubre la limpieza y reparación técnica que hace el equipo de Maintenance.
 
 ---
 
@@ -45,7 +42,7 @@ Descontaminar por completo el evaporador, la turbina, la línea de drenaje y la 
 ## 【 SCOPE - ALCANCE 】
 
 - **Incluye:** Bloqueo eléctrico, desarmado, limpieza de partes removibles, tratamiento químico del serpentín en pared, purga de la línea de drenaje, inspección de la tarjeta, rearmado y prueba de 30 minutos.
-- **Excluye:** Recarga de gas refrigerante y soldadura de cobre (solo técnico certificado en refrigeración), reparación estructural de la pared (↳ MNT-2.xx), reemplazo de motor o tarjeta como compra mayor (↳ ADM aprobación).
+- **Excluye:** Recarga de gas refrigerante y soldadura de cobre (solo técnico certificado en refrigeración), reparación estructural de la pared (↳ ver procedimiento de mantenimiento correspondiente), reemplazo de motor o tarjeta como compra mayor (↳ aprobación ADM).
 - **Frecuencia:** CYCLICAL. Limpieza profunda trimestral (cada 90 días). Overhaul completo anual en temporada baja.
 
 > [!NOTE]
@@ -267,7 +264,7 @@ En una finca tropical de costa, el moho, el biofilm y el óxido de sal atacan el
 - **¿Por qué agua filtrada y limpia?** El agua con minerales deja sarro que tapa las micro-ranuras del aluminio y baja la eficiencia de enfriamiento.
 - **¿Por qué cepillo de nylon y no alambre metálico?** El drenaje es plástico corrugado o PVC frágil. Un alambre rígido lo perfora dentro del muro. Entonces el equipo drena agua directo a la pared cada vez que corre.
 
-**Conexión con el sistema.** El agua de condensado y de enjuague no debe caer sobre camas de sustrato vivo sin verificar. El químico MULTICLEAN es de manejo controlado. Un equipo eficiente baja la carga eléctrica de la finca, que depende de CFE inestable y del inversor (≈ INF-3.05.02).
+**Conexión con el sistema.** El agua de condensado y de enjuague no debe caer sobre camas de sustrato vivo sin verificar. El químico MULTICLEAN es de manejo controlado. Un equipo eficiente baja la carga eléctrica de la finca, que depende de CFE inestable y del inversor (≈ [[INF-3.02.01]]).
 
 > [!NOTE]
 > **EN-** Coastal tropics attack the unit with mold and salt corrosion, so bad cleaning does more harm than dirt. Confirm 0.00V because a mislabeled panel can leave the unit live. Never sun-dry the turbine, it warps and destroys bearings. Rinse only top-to-bottom to avoid flattening fins. Bag the PCB because water creeps by capillary action and shorts the board. Use filtered water to avoid scale. Use nylon brush, not rigid wire, which punctures the drain inside the wall.
@@ -295,7 +292,7 @@ En una finca tropical de costa, el moho, el biofilm y el óxido de sal atacan el
 
 Aire caliente en modo COOL. Causa 1: serpentín congelado por uso a 18°C Turbo con puertas abiertas. Solución: FAN ONLY en alta 30 minutos para descongelar, limpiar filtros, cerrar puertas. Causa 2: carga baja de refrigerante por fuga microscópica en las uniones de cobre. Solución de técnico certificado: prueba de fuga con burbujas, reparar, vacío a 500 micras, cargar refrigerante de fábrica.
 
-Efecto cueva mojada, aire frío pero pegajoso. Causa: velocidad de aire muy alta en COOL Turbo a baja temperatura. El aire no alcanza el punto de rocío. Solución: pasar a DRY 22°C, el equipo baja el ventilador y extrae humedad (↰ MNT-2.03.01).
+Efecto cueva mojada, aire frío pero pegajoso. Causa: velocidad de aire muy alta en COOL Turbo a baja temperatura. El aire no alcanza el punto de rocío. Solución: pasar a DRY 22°C, el equipo baja el ventilador y extrae humedad (↰ [[MNT-02.03.01]]).
 
 Ruido de vibración o traqueteo. Causa 1: turbina deformada por secado al sol. Solución: reemplazar turbina. Causa 2: balero de hule izquierdo seco o fuera de canal. Solución: reasentar en su guía y lubricar con silicón puro, nunca WD-40.
 
@@ -314,11 +311,11 @@ Códigos de error. E1/E3 termistor: probar resistencia en kΩ metiendo el sensor
 
 ## 【 CROSS-LINK - CONEXIÓN 】
 
-- ↰ **Depende de:** MNT-2.03.01 (uso correcto del minisplit por el huésped, define los modos COOL y DRY que se validan aquí)
-- ↰ **Depende de:** INF-3.05.02 (estado de la red CFE e inversor, define si es seguro reenergizar)
-- ↳ **Alimenta a:** GST-2.xx (confort del huésped, un equipo limpio evita quejas)
+- ↰ **Depende de:** [[MNT-02.03.01]] (uso correcto del minisplit por el huésped, define los modos COOL y DRY que se validan aquí)
+- ↰ **Depende de:** [[INF-3.02.01]] (estado de la red CFE e inversor, define si es seguro reenergizar)
+- ↳ **Alimenta a:** servicio de confort del huésped (un equipo limpio evita quejas)
 - ↳ **Alimenta a:** la bitácora maestra de mantenimiento (historial de cada equipo)
-- ≈ **Relacionado con:** WST-3.xx (manejo del químico MULTICLEAN y del agua de enjuague), BIO §4 (destino del agua de condensado)
+- ≈ **Relacionado con:** manejo del químico MULTICLEAN y del agua de enjuague, ≈ [[BIO-2.07.01]] (destino del agua de condensado)
 
 **Nota:** El uso del huésped y el mantenimiento técnico son un solo ciclo. El error de 18°C Turbo del huésped causa el serpentín congelado que el técnico luego repara.
 
@@ -330,18 +327,18 @@ Códigos de error. E1/E3 termistor: probar resistencia en kΩ metiendo el sensor
 - Trabajo con gas refrigerante o soldadura de cobre: solo técnico certificado en refrigeración. Fuera del alcance de este SOP.
 - Villa con huésped presente: requiere permiso del Operations Manager y coordinación de horario.
 - Overhaul anual: se hace solo en temporada baja (jun a oct) con la villa vacía.
-- Si aparece moho negro en la pared detrás del equipo: **DETÉN** el trabajo, documenta con foto, escala. Es tema estructural (↳ MNT-2.xx).
+- Si aparece moho negro en la pared detrás del equipo: **DETÉN** el trabajo, documenta con foto, escala. Es tema estructural.
 - Temporada de lluvias: no abras el equipo con humedad activa entrando por ventanas o techo.
 
 ---
 
 ## 【 ESCALATION - ESCALAMIENTO 】
 
-- **Ejecución de la limpieza:** Maintenance especialista (T1).
+- **Ejecución de la limpieza:** [[MNT-3.03.00 - Maintenance especialista]] (T1).
 - **Decisión de cortar y reenergizar, y arranque con huésped presente:** Operations Manager o Executor (**T0**).
 - **Trabajo de gas refrigerante, vacío y soldadura:** técnico certificado externo en refrigeración. [ALCANCE COMPAÑÍA OPERADORA] si aplica contrato.
 - **Compra de refacciones mayores (motor, tarjeta, turbina):** aprobación del Operations Manager. 💵 solo T0 maneja dinero.
-- **Moho estructural o daño de pared:** Maintenance especialista informa al Executor.
+- **Moho estructural o daño de pared:** [[MNT-3.03.00 - Maintenance especialista]] informa al Executor.
 - **Falla crítica de sistema eléctrico de la villa:** escala al Executor-Administrator (⚠ sistema crítico).
 
 ---
@@ -350,13 +347,13 @@ Códigos de error. E1/E3 termistor: probar resistencia en kΩ metiendo el sensor
 
 | Actividad | DRI | Respaldo | Consultado | Informado |
 |---|---|---|---|---|
-| Bloqueo y verificación 0.00V | Maintenance especialista | Maintenance | — | Operations Manager |
-| Limpieza profunda de partes | Maintenance especialista | Maintenance | — | — |
-| Tratamiento del serpentín en pared | Maintenance especialista | — | — | — |
-| Inspección de tarjeta PCB | Maintenance especialista | — | Operations Manager | Executor |
-| Trabajo de refrigerante | Técnico certificado externo | — | Maintenance especialista | Executor |
-| Compra de refacciones | Operations Manager | Executor | Maintenance especialista | — |
-| Prueba de 30 min y firma | Maintenance especialista | — | — | Operations Manager |
+| Bloqueo y verificación 0.00V | [[MNT-3.03.00 - Maintenance especialista]] | Maintenance | — | Operations Manager |
+| Limpieza profunda de partes | [[MNT-3.03.00 - Maintenance especialista]] | Maintenance | — | — |
+| Tratamiento del serpentín en pared | [[MNT-3.03.00 - Maintenance especialista]] | — | — | — |
+| Inspección de tarjeta PCB | [[MNT-3.03.00 - Maintenance especialista]] | — | Operations Manager | Executor |
+| Trabajo de refrigerante | Técnico certificado externo | — | [[MNT-3.03.00 - Maintenance especialista]] | Executor |
+| Compra de refacciones | Operations Manager | Executor | [[MNT-3.03.00 - Maintenance especialista]] | — |
+| Prueba de 30 min y firma | [[MNT-3.03.00 - Maintenance especialista]] | — | — | Operations Manager |
 
 ---
 
@@ -496,21 +493,3 @@ created: "2026-01-15"
 next_audit: "2026-07-15"
 interlock_pending: true
 ```
-
----
-
-### Formatter notes
-
-- **Entry type resolved:** TYPE 6 (Critical System) with T1 depth. Mandatory Safety Gate (Paso 0), mandatory Measurement, escalation to Executor for critical faults. This overrides the plain T1 profile because the entry touches electrical isolation.
-- **Language mode:** BI (default). Spanish operational body, English learning blocks. Mission-critical steps carry no untranslated technical terms in the action lines.
-- **Continuation link:** `↰ MNT-2.03.01` declared inline so the interlock graph reciprocates the guest-usage SOP. Also links `↰ INF-3.05.02` (power state) and `↳ GST-2.xx`.
-- **Interlock:** Not written. `interlock_pending: true`. The script will populate the Maintenance HEAD cover.
-
-### One flag requiring your ratification
-
-The **BIBLE CHECK is MARCADO (flagged), not fully clean**, and I set `bible_check: flag` in the YAML accordingly. The reason:
-
-- **MULTICLEAN and the rinse water** are chemical streams. Per **Bible §4**, nothing that poisons beneficial microbiota may enter a living-substrate stream, and water is separated by destiny.
-- The source procedure says to flush the coil and drain line but never states **where that chemical-laden water goes**. If it discharges onto planted beds or into a greywater-to-garden path, it violates §4.
-
-**Required before this SOP becomes routine:** the microbiology lab and the Executor must confirm the rinse/condensate water routes to a **terminal stream (septic then biochar)**, not a living-substrate stream. Until confirmed, all MULTICLEAN rinse water should be captured and routed to terminal drainage. I have written this as the control note in the Bible Check block rather than silently approving it.

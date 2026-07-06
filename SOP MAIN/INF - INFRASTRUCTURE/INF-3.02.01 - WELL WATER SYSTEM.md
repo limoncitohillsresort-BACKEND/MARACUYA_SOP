@@ -1,19 +1,12 @@
-  
-  
-
----
-
-  
-
 ```
 
 ┌─────────────────────────────────────────────────────────────┐
 
-│  INF-3.02.01   ⚠ CRITICAL SYSTEM                              │
+│  INF-3.02.01   ⚠ CRITICAL SYSTEM                              │
 
-│  Encendido de la bomba del pozo y llenado de la cisterna      │
+│  Encendido de la bomba del pozo y llenado de la cisterna      │
 
-│  MARACUYA · Infraestructura y Sistemas Críticos · Grado 3     │
+│  MARACUYA · Infraestructura y Sistemas Críticos · Grado 3     │
 
 └─────────────────────────────────────────────────────────────┘
 
@@ -25,19 +18,19 @@
 
 ```
 
-SOP No.    : INF-3.02.01
+SOP No.    : INF-3.02.01
 
-Título     : Encendido de la bomba del pozo y llenado de la cisterna
+Título     : Encendido de la bomba del pozo y llenado de la cisterna
 
-Versión    : 1.0   Creado: 2025-06-13   Próxima revisión: 2025-12-13
+Versión    : 1.0   Creado: 2025-06-13   Próxima revisión: 2025-12-13
 
-Dueño (DRI): Maintenance
+Dueño (DRI): [[MNT-3.03.02 - Maintenance Team Lead - Líder de Equipo de Mantenimiento]]
 
-Confianza  : T1 para operar la bomba. La decisión de CUÁNDO encender es T0.
+Confianza  : T1 para operar la bomba. La decisión de CUÁNDO encender es T0.
 
-             Cambio de válvulas es T0 siempre.
+             Cambio de válvulas es T0 siempre.
 
-Banderas   : ⚠ SISTEMA CRÍTICO | ⛑ SEGURIDAD | 🌱 BIBLIA DE LA TIERRA
+Banderas   : ⚠ SISTEMA CRÍTICO | ⛑ SEGURIDAD | 🌱 BIBLIA DE LA TIERRA
 
 ```
 
@@ -55,7 +48,7 @@ EN-[ Water lifted 350 feet to the cistern stores a lot of energy. If you open or
 
 【 PURPOSE - OBJETIVO 】
 
-Explicar cómo encender la bomba principal del pozo para llenar la cisterna de forma segura, sin quemar la bomba, sin desperdiciar agua y sin dañar el sistema de tuberías. El agua es la vida de toda la finca. Sin agua no hay huéspedes, no hay riego y no hay cocina.
+Explicar cómo encender la bomba principal del pozo para llenar la cisterna de forma segura, sin quemar la bomba, sin desperdiciar agua y sin dañar el sistema de tuberías. El agua es la vida de toda la finca. Sin agua no hay huéspedes, no hay riego y no hay [[FNB-2.06.01 - Kitchen Operations Basic - Operaciones Básicas de Cocina]].
 
   
 
@@ -69,17 +62,17 @@ EN-[ Explains how to turn on the main well pump to fill the cistern safely, with
 
 Incluye: Encendido de la bomba en modo automático y manual. Verificación
 
-         del nivel de la cisterna. Apagado seguro. Diagnóstico de síntomas
+         del nivel de la cisterna. Apagado seguro. Diagnóstico de síntomas
 
-         de error básicos.
+         de error básicos.
 
 Excluye: Cambio de válvulas de 3 vías (solo T0). Reparación de bombas
 
-         quemadas ↳ EMG. Mantenimiento anual de bombas. Procedimiento de
+         quemadas ↳ see procedimientos de emergencia. Mantenimiento anual de bombas ↰ [[MNT-02.03.01 - Maintenance Schedule Weekly - Programa de Mantenimiento Semanal]]. Procedimiento de
 
-         corte de energía ↰ EMG-3.05.01. Cisterna de playa y tinacos del
+         corte de energía ↰ procedimiento de emergencias correspondiente. Cisterna de playa y tinacos del
 
-         laboratorio ≈ INF.
+         laboratorio ≈ otros sistemas de infraestructura.
 
 Frecuencia: ON EVENT (llenado). El modo automático es CYCLICAL.
 
@@ -281,45 +274,45 @@ EN-[ PROCEDURE SUMMARY: Check cistern level. Verify stable CFE voltage. Select A
 
 [1 Revisar nivel cisterna]
 
-        |
+        |
 
-        v
+        v
 
 [2 Medir voltaje CFE] --bajón--> [DETENER: no encender]
 
-        |
+        |
 
-     estable
+     estable
 
-        v
+        v
 
 [3 Elegir modo] --AUTO--> [Flotadores llenan y apagan solos]
 
-        |
+        |
 
-     MANUAL
+     MANUAL
 
-        v
+        v
 
 [4 Arrancar temporizador max 3h]
 
-        |
+        |
 
-        v
+        v
 
 [5 Confirmar arranque y flujo]
 
-        |
+        |
 
-        v
+        v
 
 [6 Vigilar cada 30 min] --nivel máx--> [OFF]
 
-        |
+        |
 
-   agua en arroyo
+   agua en arroyo
 
-        v
+        v
 
 [APAGAR YA: sobrellenado]
 
@@ -331,7 +324,7 @@ EN-[ PROCEDURE SUMMARY: Check cistern level. Verify stable CFE voltage. Select A
 
 Si la cisterna está llena entonces NO enciendas la bomba.
 
-Si hay corte o bajón de CFE entonces NO enciendas. Espera energía estable. ↰ EMG-3.05.01
+Si hay corte o bajón de CFE entonces NO enciendas. Espera energía estable. ↰ procedimiento de emergencias correspondiente
 
 Si necesitas cambiar dirección de flujo con válvula entonces DETENTE. Escala a T0.
 
@@ -361,7 +354,7 @@ El sistema sube agua 350 pies a una cisterna de piedra de 50kL. La bomba es de 2
 
   
 
-Conexión con el sistema. El sobrellenado drena directo al arroyo. La Biblia de la Tierra §10 dice que ninguna acción es neutral. Desperdiciar agua daña el ciclo del agua de toda la finca. Este desbordamiento pronto se conectará a los huertos ↳ GRD.
+Conexión con el sistema. El sobrellenado drena directo al arroyo. La Biblia de la Tierra §10 dice que ninguna acción es neutral. Desperdiciar agua daña el ciclo del agua de toda la finca. Este desbordamiento pronto se conectará a los huertos ↳ sistemas de riego correspondientes.
 
   
 
@@ -391,13 +384,13 @@ EN-[ Starting on low voltage burns the pump and starter, causing expensive repai
 
 【 EXCEPTIONS - EXCEPCIONES 】
 
-Corte o bajón de CFE: NO enciendas. Espera energía estable. Refiere a EMG-3.05.01. Parada dura.
+Corte o bajón de CFE: NO enciendas. Espera energía estable. Refiere a procedimiento de emergencias correspondiente. Parada dura.
 
 Flotadores atascados o lógica fallando: usa MANUAL con vigilancia. Revisa cada extremo con multímetro. El sistema automático nunca debe permitir que el agua se acabe.
 
 Agua café de los grifos: el pozo se está secando por sedimento. Cambia al pozo secundario. Deja fluir hasta 10 días al arroyo por la válvula de bypass para limpiar el sedimento.
 
-Agua con mal olor o color raro: posible contaminación o animal muerto. Revisa las dos secciones del baffle de la cisterna. Parada dura hasta que el laboratorio autorice.
+Agua con mal olor o color raro: posible contaminación o animal muerto. Revisa las dos secciones del baffle de la cisterna. Parada dura hasta que ↳ [[BIO-2.07.01 - Laboratory Microbiological Testing - Laboratorio de Pruebas Microbiológicas]] autorice.
 
 Agua blanca lechosa: es normal, aire disuelto a presión. No es alarma.
 
@@ -407,15 +400,15 @@ La cisterna de playa no llena: bloqueo o fuga en la línea. Revisa las válvulas
 
 【 ESCALATION - ESCALAMIENTO 】
 
-- Primera respuesta y diagnóstico: Maintenance. Tier T1.
+- Primera respuesta y diagnóstico: [[MNT-3.03.02 - Maintenance Team Lead - Líder de Equipo de Mantenimiento]]. Tier T1.
 
 - Cambio de válvulas o cambio de dirección de flujo: solo Operations Manager o Executor. Tier T0.
 
 - Bomba quemada, sin respuesta con energía presente: escalamiento severo inmediato al Executor-Administrator. Tier T0.
 
-- Bajón de voltaje o corte de CFE: refiere a EMG-3.05.01 y avisa al Operations Manager. Tier T0.
+- Bajón de voltaje o corte de CFE: refiere a procedimiento de emergencias correspondiente y avisa al Operations Manager. Tier T0.
 
-- Contaminación de agua sospechada: el laboratorio de microbiología decide, el Executor ratifica. [ALCANCE COMPAÑÍA OPERADORA] si hay tema legal con vecinos.
+- Contaminación de agua sospechada: ↰ [[BIO-2.07.01 - Laboratory Microbiological Testing - Laboratorio de Pruebas Microbiológicas]] decide, el Executor ratifica. [ALCANCE COMPAÑÍA OPERADORA] si hay tema legal con vecinos.
 
   
 
@@ -425,15 +418,15 @@ La cisterna de playa no llena: bloqueo o fuga en la línea. Revisa las válvulas
 
 |---|---|---|---|---|
 
-| Verificar nivel y voltaje | Maintenance | Groundskeeper | Operations Manager | — |
+| Verificar nivel y voltaje | [[MNT-3.03.02 - Maintenance Team Lead - Líder de Equipo de Mantenimiento]] | Groundskeeper | Operations Manager | — |
 
-| Permiso de encendido | Operations Manager | Executor | — | Maintenance |
+| Permiso de encendido | Operations Manager | Executor | — | [[MNT-3.03.02 - Maintenance Team Lead - Líder de Equipo de Mantenimiento]] |
 
-| Operar bomba en auto o manual | Maintenance | Operations Manager | — | Operations Manager |
+| Operar bomba en auto o manual | [[MNT-3.03.02 - Maintenance Team Lead - Líder de Equipo de Mantenimiento]] | Operations Manager | — | Operations Manager |
 
-| Cambio de válvulas de 3 vías | Executor | Operations Manager | Maintenance | — |
+| Cambio de válvulas de 3 vías | Executor | Operations Manager | [[MNT-3.03.02 - Maintenance Team Lead - Líder de Equipo de Mantenimiento]] | — |
 
-| Diagnóstico de bomba quemada | Executor | Operations Manager | Maintenance | Owner |
+| Diagnóstico de bomba quemada | Executor | Operations Manager | [[MNT-3.03.02 - Maintenance Team Lead - Líder de Equipo de Mantenimiento]] | Owner |
 
   
 
@@ -465,7 +458,7 @@ La cisterna de playa no llena: bloqueo o fuga en la línea. Revisa las válvulas
 
 §10 La tierra es un organismo: el desbordamiento al arroyo desperdicia agua. La regla de máximo 3 horas protege el ciclo del agua.
 
-§1 Sin químicos: la limpieza anual usa multiclean aprobado, nunca blanqueadores reactivos en la ruta del agua.
+§1 Sin químicos: ↰ [[HSK-3.07.01 - Cleaning Protocols Deep - Protocolos de Limpieza Profunda]] usa multiclean aprobado, nunca blanqueadores reactivos en la ruta del agua.
 
   
 
@@ -545,7 +538,7 @@ P1. b) 3 horas. Nunca más de 3 horas en manual sin vigilancia. (5 XP)
 
 P2. FALSO. Nunca se cambian válvulas con la bomba encendida. Causa golpe de ariete con riesgo a la vida. Es tarea T0. (3 XP)
 
-P3. NO enciendes. La finca corre con inversor por corte de CFE. El bajón de voltaje quema el arrancador y la bomba. Esperas energía estable de CFE y avisas al Operations Manager. Refiere a EMG-3.05.01. (10 XP)
+P3. NO enciendes. La finca corre con inversor por corte de CFE. El bajón de voltaje quema el arrancador y la bomba. Esperas energía estable de CFE y avisas al Operations Manager. Refiere a procedimiento de emergencias correspondiente. (10 XP)
 
 P4. Agua: la cisterna se desborda y el agua se pierde al arroyo o revienta la cisterna. Marca: las villas quedan sin agua, quejas de huéspedes y daño a la reputación de MARACUYA. (10 XP)
 
@@ -573,53 +566,53 @@ timing_authority: T0
 
 banners:
 
-  - "⚠ SISTEMA CRÍTICO"
+  - "⚠ SISTEMA CRÍTICO"
 
-  - "⛑ SEGURIDAD"
+  - "⛑ SEGURIDAD"
 
-  - "🌱 BIBLIA DE LA TIERRA"
+  - "🌱 BIBLIA DE LA TIERRA"
 
 roles_owner: Maintenance
 
 roles_backup:
 
-  - Operations Manager
+  - Operations Manager
 
-  - Groundskeeper
+  - Groundskeeper
 
 measures:
 
-  - name: nivel_cisterna_pct
+  - name: nivel_cisterna_pct
 
-    method: visual
+    method: visual
 
-    target: ">30"
+    target: ">30"
 
-    alarm: "<30"
+    alarm: "<30"
 
-  - name: voltaje_arrancador
+  - name: voltaje_arrancador
 
-    method: iot_sensor
+    method: iot_sensor
 
-    target: nominal
+    target: nominal
 
-    alarm: bajon
+    alarm: bajon
 
-  - name: tiempo_manual_horas
+  - name: tiempo_manual_horas
 
-    method: notebook
+    method: notebook
 
-    target: "<3"
+    target: "<3"
 
-    alarm: ">=3"
+    alarm: ">=3"
 
-  - name: senal_rf_semanal
+  - name: senal_rf_semanal
 
-    method: notebook
+    method: notebook
 
-    target: confirmada
+    target: confirmada
 
-    alarm: sin_knockback
+    alarm: sin_knockback
 
 pii_handling: false
 
