@@ -113,48 +113,195 @@ Tiempo: 5 minutos.
 
 ### 【 PROCESS MAP - MAPA 】
 
-**PIRÁMIDE DE PODER (quién decide)**
+**PIRÁMIDE DE PODER (quién decide) — con enlaces a cada puesto**
+
+#### LAYER 0 — GOBERNANZA (Pirámide de Poder) · T0 / T4
 
 ```
-                    Propietarios x4  T4
-                          |
-                 Albacea. AUTORIDAD FINAL  T0
-                          |
-        +-----------------+-----------------+
-        |                 |                 |
-     Abogados x3      Contable        Compañía operadora
-        |                 |                 |
-        +-----------------+-----------------+
-                          |
-              Gerente de Operaciones  T0
-                (centro del día a día)
-                          |
-   +--------+--------+--------+--------+--------+--------+
-   |        |        |        |        |        |        |
-Logística Biodin.   Chef    Limpieza Manten. Seguridad
-Manager   Especial.
-   |        |        |
-Chofer  Jardinero  Cocineros
-        Terreno    Preparadores
-        Residuos
+                 Propietarios x4  T4
+                       |
+            [[HCY-1.02.01]]  AUTORIDAD FINAL  T0
+            Albacea-Administrador
+                       |
+         +-------------+-------------+
+         |                           |
+  [[HCY-1.02.05]]             Compañía Operadora
+  Apoyo Legal y Financiero     (entrante)
+  Abogados x3 · Contable      T0
+  T0
 ```
 
-**RED OPERATIVA (cómo trabajamos juntos)**
+- [[HCY-1.02.01 - Albacea y Administrador]] · **T0 Steward** · Autoridad final sobre dinero, personas, tierra, legal · ↳ [[DEPT-ADM]] · [[DEPT-BIO]] · [[DEPT-EMG]] · [[DEPT-INF]] · [[DEPT-HRC]]
+- [[HCY-1.02.05 - Puestos de Apoyo Legal y Financiero]] · **T0 Steward** · Abogados, Contable, Compañía Operadora · ↳ [[DEPT-ADM]] · [[DEPT-HRC]] · [[DEPT-SEC]]
+
+---
+
+#### LAYER 1 — MANDO OPERATIVO (Centro de la Red) · T0 / T1
 
 ```
-   Biodinámica <---> Jardín <---> Residuos
-        ^                 ^                  ^
-        |                 |                  |
-        v                 v                  v
-   Alimentos <---> Limpieza <---> Informática
-        ^                 ^                  ^
-        |                 |                  |
-        v                 v                  v
-   Huéspedes <---> Seguridad <---> Emergencias
-                          ^
-                          |
-              todos giran alrededor de
-        Energía  Pozo-Cisterna  Albercas
+            [[HCY-1.02.01]]  T0
+                   |
+            [[HCY-1.02.02]]  T0
+            Gerente de Operaciones
+            (centro del día a día)
+                   |
+       +-----------+-----------+
+       |                       |
+[[HCY-1.02.04]]         [[HCY-1.02.03]]
+Gerente de Logística     Especialista en Biodinámica
+T1                       T1
+```
+
+- [[HCY-1.02.02 - Gerente de Operaciones]] · **T0 Steward** · Centro operativo diario, co-autoridad de efectivo 💵 · Reporta a: [[HCY-1.02.01]] · Dirige: todos los equipos operativos · ↳ [[DEPT-GST]] · [[DEPT-HSK]] · [[DEPT-FNB]] · [[DEPT-SEC]] · [[DEPT-LOG]] · [[DEPT-EMG]] · [[DEPT-MNT]] · [[DEPT-INF]]
+- [[HCY-1.02.04 - Gerente de Logística]] · **T1 Veteran** · Compras, inventario, transporte · Reporta a: [[HCY-1.02.02]] · ↳ [[DEPT-LOG]] · [[DEPT-FNB]] · [[DEPT-MNT]] · [[DEPT-INF]]
+- [[HCY-1.02.03 - Especialista en Biodinámica]] · **T1 Veteran** · Guardián de la Biblia de la Tierra, autoridad ecológica · Reporta a: [[HCY-1.02.02]] + línea directiva [[HCY-1.02.01]] · ↳ [[DEPT-BIO]] · [[DEPT-GRD]] · [[DEPT-WST]] · [[DEPT-INF]]
+
+---
+
+#### LAYER 2 — EQUIPOS DE DEPARTAMENTO (Operadores) · T1 / T2
+
+```
+                     [[HCY-1.02.02]]  T0
+                            |
+  +---------+---------+-----+-----+---------+---------+
+  |         |         |           |         |         |
+[[.06]]  [[.09]]  [[.13]]     [[.14]]   [[.03]]  [[.04]]
+Chef     Limpieza  Manten.    Seguridad  Biodin.  Logíst.
+T1       T2       T1·T0      T1·T0      T1       T1
+  |                                        |         |
+  +-----+                       +---------+---+      |
+  |     |                       |         |   |      |
+[[.07]][[.08]]                [[.10]] [[.11]][[.12]][[.15]]
+Sous   Prep                   Jardin. Terren. Resid. Chofer
+T2     T2                     T1      T2      T2     T2
+```
+
+##### Cocina / F&B → [[DEPT-FNB]]
+- [[HCY-1.02.06 - Chef]] · **T1 Veteran** · Dirige CIEN BALLENAS, inocuidad de mariscos · Reporta a: [[HCY-1.02.02]] · ↳ [[DEPT-FNB]] · [[DEPT-WST]] · [[DEPT-BIO]] · [[DEPT-LOG]]
+    - [[HCY-1.02.07 - Sous-Chef y Cocinero]] · **T2 Standard** · Línea de cocina, porciones, separación de orgánicos · Reporta a: [[HCY-1.02.06]] · ↳ [[DEPT-FNB]] · [[DEPT-WST]]
+    - [[HCY-1.02.08 - Preparador y Empacador]] · **T2 Standard** · Pre-procesado, empaque, congelación · Reporta a: [[HCY-1.02.06]] · ↳ [[DEPT-FNB]] · [[DEPT-WST]] · [[DEPT-LOG]]
+
+##### Limpieza / Higiene → [[DEPT-HSK]]
+- [[HCY-1.02.09 - Recamarista y Limpieza]] · **T2 Standard** · Limpieza ecológica de villas, cara del eco-lujo · Reporta a: [[HCY-1.02.02]] · ↳ [[DEPT-HSK]] · [[DEPT-GST]] · [[DEPT-BIO]] · [[DEPT-WST]] · [[DEPT-INF]]
+
+##### Terreno / Jardín → [[DEPT-GRD]]
+- [[HCY-1.02.10 - Jardinero]] · **T1 Veteran** (ecológico-crítico) / **T2 Standard** (tareas básicas) · Suelo vivo, huertos, composta biodinámica · Reporta a: [[HCY-1.02.03]] · ↳ [[DEPT-GRD]] · [[DEPT-BIO]] · [[DEPT-WST]] · [[DEPT-INF]]
+- [[HCY-1.02.11 - Encargado de Terreno]] · **T2 Standard** · Senderos, cortafuegos, fauna, camino · Reporta a: [[HCY-1.02.03]] · ↳ [[DEPT-GRD]] · [[DEPT-EMG]] · [[DEPT-INF]] · [[DEPT-SEC]]
+- [[HCY-1.02.12 - Manejo de Residuos]] · **T2 Standard** / **T1 Veteran** (quemas de biochar) · Composta, biochar, fertilizante líquido · Reporta a: [[HCY-1.02.03]] · ↳ [[DEPT-WST]] · [[DEPT-BIO]] · [[DEPT-GRD]] · [[DEPT-FNB]]
+
+##### Infraestructura / Mantenimiento → [[DEPT-INF]] · [[DEPT-MNT]]
+- [[HCY-1.02.13 - Mantenimiento]] · **T1 Veteran** (tarea) · **T0 Steward** (tiempo de sistemas críticos) · ⚠ SISTEMA CRÍTICO · Reporta a: [[HCY-1.02.02]] · ↳ [[DEPT-INF]] · [[DEPT-MNT]] · [[DEPT-EMG]] · [[DEPT-BIO]] · [[NODE-Power]] · [[NODE-Well-Cistern]] · [[NODE-Pools]]
+
+##### Seguridad → [[DEPT-SEC]]
+- [[HCY-1.02.14 - Guardia de Seguridad]] · **T1 Veteran** (tarea) · **T0 Steward** (dron y evacuación) · Primer contacto humano · Reporta a: [[HCY-1.02.02]] · ↳ [[DEPT-SEC]] · [[DEPT-GST]] · [[DEPT-EMG]] · [[DEPT-INF]]
+
+##### Logística / Transporte → [[DEPT-LOG]]
+- [[HCY-1.02.15 - Chofer y Entregas]] · **T2 Standard** · Transporte, terracería, apoyo de evacuación 4x4 · Reporta a: [[HCY-1.02.04]] · ↳ [[DEPT-LOG]] · [[DEPT-FNB]] · [[DEPT-EMG]] · [[DEPT-INF]]
+
+---
+
+#### LAYER 3 — FUERZA FLUIDA (Labor Variable) · T3 / T2
+
+- [[HCY-1.02.16 - Voluntario]] · **T3 Volunteer** · Supervisado, sin efectivo, sin PII, sin trabajo crítico · Sayulita/Vallarta · ↳ [[DEPT-GRD]] · [[DEPT-WST]] · [[DEPT-HSK]]
+- [[HCY-1.02.17 - Familiar (Casual de Fin de Semana)]] · **T3 Volunteer** · Fin de semana, supervisado · ↳ [[DEPT-HSK]] · [[DEPT-GRD]]
+- [[HCY-1.02.18 - Contratista de Seguridad]] · **T3 Volunteer** · Vetado, supervisado · ↳ [[DEPT-SEC]]
+- [[HCY-1.02.19 - Contratista de Construcción]] · **T3 Volunteer** · Supervisado · ↳ [[DEPT-INF]] · [[DEPT-MNT]]
+- [[HCY-1.02.20 - Contratista de Paisajismo]] · **T3 Volunteer** · Supervisado · ↳ [[DEPT-GRD]] · [[DEPT-BIO]]
+- [[HCY-1.02.21 - Personal de Temporada]] · **T2 Standard** / **T3 Volunteer** · Según rol asignado · ↳ departamento de asignación
+
+---
+
+#### TRUST TIER CROSS-CUT — NIVELES DE CONFIANZA
+
+##### 🔴 T0 Steward — Todo: efectivo 💵 · PII 🔒 · sistemas críticos ⚠ · autoridad de tiempo
+- [[HCY-1.02.01 - Albacea y Administrador]]
+- [[HCY-1.02.02 - Gerente de Operaciones]]
+- [[HCY-1.02.05 - Puestos de Apoyo Legal y Financiero]]
+- [[HCY-1.02.13 - Mantenimiento]] *(tiempo de sistemas críticos)*
+- [[HCY-1.02.14 - Guardia de Seguridad]] *(tiempo de dron y evacuación)*
+
+##### 🟠 T1 Veteran — Rol-crítico y ecológico-crítico con capacitación
+- [[HCY-1.02.03 - Especialista en Biodinámica]]
+- [[HCY-1.02.04 - Gerente de Logística]]
+- [[HCY-1.02.06 - Chef]]
+- [[HCY-1.02.10 - Jardinero]] *(ecológico-crítico)*
+- [[HCY-1.02.13 - Mantenimiento]] *(tarea)*
+- [[HCY-1.02.14 - Guardia de Seguridad]] *(tarea)*
+- [[HCY-1.02.12 - Manejo de Residuos]] *(quemas de biochar)*
+
+##### 🟡 T2 Standard — Tareas estándar del rol
+- [[HCY-1.02.07 - Sous-Chef y Cocinero]]
+- [[HCY-1.02.08 - Preparador y Empacador]]
+- [[HCY-1.02.09 - Recamarista y Limpieza]]
+- [[HCY-1.02.10 - Jardinero]] *(tareas básicas)*
+- [[HCY-1.02.11 - Encargado de Terreno]]
+- [[HCY-1.02.12 - Manejo de Residuos]] *(tareas estándar)*
+- [[HCY-1.02.15 - Chofer y Entregas]]
+- [[HCY-1.02.21 - Personal de Temporada]] *(según rol)*
+
+##### 🟢 T3 Volunteer — Supervisado · sin efectivo · sin PII · sin crítico
+- [[HCY-1.02.16 - Voluntario]]
+- [[HCY-1.02.17 - Familiar (Casual de Fin de Semana)]]
+- [[HCY-1.02.18 - Contratista de Seguridad]]
+- [[HCY-1.02.19 - Contratista de Construcción]]
+- [[HCY-1.02.20 - Contratista de Paisajismo]]
+- [[HCY-1.02.21 - Personal de Temporada]] *(según rol)*
+
+##### ⚪ T4 Ownership — Beneficiario · no operativo
+- Propietarios x4 (no tienen SOP propio, reciben el resultado del organismo)
+
+---
+
+#### REPORTING TREE — ÁRBOL DE REPORTE COMPLETO
+
+```
+Propietarios x4  T4
+  └── [[HCY-1.02.01]] Albacea-Administrador  T0
+        ├── [[HCY-1.02.05]] Apoyo Legal y Financiero  T0
+        │     ├── Abogados (Laboral · Penal · Administrativo)
+        │     ├── Firma Contable
+        │     └── Compañía Operadora (entrante)
+        └── [[HCY-1.02.02]] Gerente de Operaciones  T0
+              ├── [[HCY-1.02.04]] Gerente de Logística  T1
+              │     └── [[HCY-1.02.15]] Chofer y Entregas  T2
+              ├── [[HCY-1.02.03]] Especialista en Biodinámica  T1
+              │     ├── [[HCY-1.02.10]] Jardinero  T1·T2
+              │     ├── [[HCY-1.02.11]] Encargado de Terreno  T2
+              │     └── [[HCY-1.02.12]] Manejo de Residuos  T2·T1
+              ├── [[HCY-1.02.06]] Chef  T1
+              │     ├── [[HCY-1.02.07]] Sous-Chef y Cocinero  T2
+              │     └── [[HCY-1.02.08]] Preparador y Empacador  T2
+              ├── [[HCY-1.02.09]] Recamarista y Limpieza  T2
+              ├── [[HCY-1.02.13]] Mantenimiento  T1·T0
+              └── [[HCY-1.02.14]] Guardia de Seguridad  T1·T0
+        · · · · · · · · · · · ·
+        Fuerza Fluida (supervisada):
+              ├── [[HCY-1.02.16]] Voluntario  T3
+              ├── [[HCY-1.02.17]] Familiar Casual  T3
+              ├── [[HCY-1.02.18]] Contratista de Seguridad  T3
+              ├── [[HCY-1.02.19]] Contratista de Construcción  T3
+              ├── [[HCY-1.02.20]] Contratista de Paisajismo  T3
+              └── [[HCY-1.02.21]] Personal de Temporada  T2·T3
+```
+
+---
+
+**RED OPERATIVA (cómo trabajamos juntos) — Departamentos Conectados**
+
+```
+   [[DEPT-BIO]] <---> [[DEPT-GRD]] <---> [[DEPT-WST]]
+        ^                  ^                   ^
+        |                  |                   |
+        v                  v                   v
+   [[DEPT-FNB]] <---> [[DEPT-HSK]] <---> [[DEPT-INF]]
+        ^                  ^                   ^
+        |                  |                   |
+        v                  v                   v
+   [[DEPT-GST]] <---> [[DEPT-SEC]] <---> [[DEPT-EMG]]
+                           ^
+                           |
+               todos giran alrededor de
+         [[NODE-Power]]  [[NODE-Well-Cistern]]  [[NODE-Pools]]
 ```
 
 ---
