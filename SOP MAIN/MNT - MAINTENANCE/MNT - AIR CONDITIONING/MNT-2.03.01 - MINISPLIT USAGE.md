@@ -1,4 +1,6 @@
+
 ---
+
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -220,7 +222,7 @@ Los minisplits inverter no funcionan como el acelerador de un carro. El aire que
 
 ## 【 ESCALATION - ESCALAMIENTO 】
 
-- **Primera respuesta y ajuste:** cualquier personal de [[HSK-3.07.01 - HOUSEKEEPING LEAD]] o [[MNT-02.03.01 - MINISPLIT USAGE]] presente (T2).
+- **Primera respuesta y ajuste:** cualquier personal de [[HSK-3.07.01 - HOUSEKEEPING LEAD]] o [[MNT-2.03.01 - MINISPLIT USAGE]] presente (T2).
 - **Equipo congelado o sin enfriar tras descongelar:** [[MNT-3.03.02 - EQUIPMENT SPECIALIST]] veterano (T1).
 - **Falla de gas, compresor o eléctrica:** [[MNT-3.03.02 - EQUIPMENT SPECIALIST]] y Operations Manager (↳ [[INF-3.02.01 - IT INFRASTRUCTURE]]).
 - **Decisión de encender equipos durante corte de CFE:** Operations Manager (T0).
@@ -232,11 +234,11 @@ Los minisplits inverter no funcionan como el acelerador de un carro. El aire que
 
 | Actividad | DRI | Respaldo | Consultado | Informado |
 |---|---|---|---|---|
-| Configuración pre-llegada | [[HSK-3.07.01 - HOUSEKEEPING LEAD]] | [[MNT-02.03.01 - MINISPLIT USAGE]] | — | Operations Manager |
+| Configuración pre-llegada | [[HSK-3.07.01 - HOUSEKEEPING LEAD]] | [[MNT-2.03.01 - MINISPLIT USAGE]] | — | Operations Manager |
 | Explicación al huésped | Concierge | [[HSK-3.07.01 - HOUSEKEEPING LEAD]] | — | — |
-| Descongelamiento de serpentín | [[MNT-02.03.01 - MINISPLIT USAGE]] | — | Operations Manager | Executor |
+| Descongelamiento de serpentín | [[MNT-2.03.01 - MINISPLIT USAGE]] | — | Operations Manager | Executor |
 | Falla técnica mayor | [[MNT-3.03.02 - EQUIPMENT SPECIALIST]] | Operations Manager | — | Executor |
-| Encendido durante corte CFE | Operations Manager | Executor | [[MNT-02.03.01 - MINISPLIT USAGE]] | — |
+| Encendido durante corte CFE | Operations Manager | Executor | [[MNT-2.03.01 - MINISPLIT USAGE]] | — |
 
 ---
 
