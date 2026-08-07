@@ -114,73 +114,50 @@ Esta es una tarea T1, pero la decisión de CUÁNDO arrancar y CUÁNDO cortar el 
 【 PROCEDURE - PROCEDIMIENTO 】
 Paso 1. Recolección de barriles
 ```
-Entrada: Villa con checkout terminado y housekeeping finalizado.
-Acción: Recoge los barriles HDPE de cada casa solo después de que housekeeping
-        terminó. Llévalos al sitio de colecta detrás de la bodega.
-Resultado: Barriles en el sitio de colecta, listos para sorteo.
-Bien hecho: Todos los barriles de la villa recogidos. Nada dejado en la casa.
-Tiempo: 15 minutos por villa
+Entrada: 
+	Villa con checkout terminado y housekeeping finalizado.
+Acción: 
+	Recoge los barriles HDPE de cada casa solo después de que housekeeping
+    terminó. Llévalos al sitio de colecta detrás de la bodega.
+Resultado: 
+	Barriles en el sitio de colecta, listos para sorteo.
+Bien hecho: 
+	Todos los barriles de la villa recogidos. Nada dejado en la casa.
+Tiempo: 
+	15 minutos por villa
 ```
 
 Paso 2. Sorteo preliminar en basas de concreto
 ```
-Entrada: Barriles llenos en el sitio de colecta.
-Acción: Vacía cada barril en la basa de concreto correcta. Separa por tipo.
-        Vidrio, metal, plástico, compost y material residual.
-Resultado: Material separado por corriente en su basa.
-Bien hecho: Cada corriente en su basa, sin mezclas visibles.
-Tiempo: 20 a 40 minutos por lote
-```
-
-Paso 3. Procesar el vidrio
-```
-Entrada: Vidrio en su basa.
-Acción: Separa por color en crates plásticos. Lava y quita etiquetas.
-        Guarda para material de construcción. Terrazo, agregado o bloques fundidos.
-Resultado: Vidrio limpio, sin etiqueta, clasificado por color.
-Bien hecho: Vidrio limpio, sin residuo de comida ni pegamento.
-Tiempo: variable según acumulación
-```
-
-Paso 4. Procesar el metal
-```
-Entrada: Latas y metal en su basa.
-Acción: Lava las latas. Aplasta. El aluminio y el cobre se funden en lingotes.
-        Guarda para material crudo o piezas fundidas.
-Resultado: Metal limpio y compactado, listo para fundición.
-Bien hecho: Sin restos de comida, aplastado y separado por tipo de metal.
-Tiempo: variable según acumulación
-```
-
-Paso 5. Procesar el plástico
-```
-Entrada: Plástico en su basa.
-Acción: Lava el plástico. Prepara para transporte a la trituradora de reciclaje.
-        Se usa para bloques de pavimento extruido, postes o tablones.
-Resultado: Plástico limpio, listo para envío.
-Bien hecho: Limpio y seco, sin residuo orgánico.
-Tiempo: variable según acumulación
-```
-
-Paso 6. Procesar el compost
-```
-Entrada: Orgánico de huéspedes en su basa.
-Acción: Lleva el compost al sitio de composta SOLO para huéspedes.
-        Se usa para enmienda de suelo fuera del huerto, plantas ornamentales,
-        o para alimentar los generadores de mosca soldado.
-Resultado: Compost de huésped en su sitio aislado.
-Bien hecho: NUNCA cerca de los huertos de fruta. Solo en el sitio de huésped.
-Tiempo: 15 minutos por lote
+Entrada: 
+	Barriles llenos en el sitio de colecta.
+Acción: 
+	Vacía cada barril en la basa de concreto correcta. Separa por tipo.
+    Vidrio, metal, plástico, compost y material residual. 
+        
+        SOLO EL MATERIAL RESIDUAL QUE NO SE CATEGORIZA POR NINGUN RECICLAJE.
+        [BOLSAS DE PLASTICO, UNICEL, BIOHAZARD, PAPEL HIGIENICO, ETC]
+        
+Resultado: 
+	Material separado por corriente en su basa.
+Bien hecho: 
+	Cada corriente en su basa, sin mezclas visibles.
+Tiempo: 
+	20 a 40 minutos por lote
 ```
 
 Paso 7. Vaciar el carbón de la chimenea
 ```
-Entrada: Horno frío, cámara vacía, temprano en la mañana.
-Acción: Abre la reja de la chimenea que sostiene el carbón. El carbón cae por atrás
-        por el chute hacia un barril. Cierra el chute.
-Resultado: Carbón gastado recolectado en barril.
-Bien hecho: Chimenea vacía de carbón. Chute cerrado.
-Tiempo: 10 minutos
+Entrada: 
+	Horno frío, cámara vacía, temprano en la mañana.
+Acción: 
+	Abre la reja de la chimenea que sostiene el carbón. El carbón cae por atrás por el chute hacia un barril. Cierra el chute.
+Resultado: 
+	Carbón gastado recolectado en barril.
+Bien hecho: 
+	Chimenea vacía de carbón. Chute cerrado.
+Tiempo: 
+	10 minutos
 ```
 
 Paso 8. Retirar cenizas de la cámara
@@ -189,85 +166,120 @@ Entrada: Cámara de combustión fría.
 Acción: Abre la ventila inferior. Saca las cenizas gastadas con la pala.
         Ponlas en el BARRIL DE CENIZAS FINALES. Limpia toda la cámara.
         Revisa que ningún puerto, ventila o quemador esté tapado.
-Resultado: Cámara limpia, cenizas en su barril, puertos libres.
-Bien hecho: Sin ceniza suelta. Ventilas y quemadores libres de material.
-Tiempo: 20 minutos
+Resultado: 
+	Cámara limpia, cenizas en su barril, puertos libres.
+Bien hecho: 
+	Sin ceniza suelta. Ventilas y quemadores libres de material.
+Tiempo: 
+	20 minutos
 ```
 
 Paso 9. Vaciar pirólisis y cargar la chimenea
 ```
-Entrada: Cámara de pirólisis con material carbonizado nuevo.
-Acción: Saca el material carbonizado a un barril fresco. Sube por la escalera
-        de la chimenea. Vierte el carbón por arriba hasta llenar la chimenea.
-        Coloca la tapa de tiro. Limpia la cámara de pirólisis por completo.
-Resultado: Chimenea cargada de carbón fresco. Cámara de pirólisis limpia.
-Bien hecho: Chimenea llena. Tapa de tiro puesta. Pirólisis limpia.
-Tiempo: 25 minutos
+Entrada: 
+	Cámara de pirólisis con material carbonizado nuevo.
+Acción: 
+	Saca el material carbonizado a un barril fresco. Sube por la escalera
+    de la chimenea. Vierte el carbón por arriba hasta llenar la chimenea.
+    Coloca la tapa de tiro. Limpia la cámara de pirólisis por completo.
+Resultado: 
+	Chimenea cargada de carbón fresco. Cámara de pirólisis limpia.
+Bien hecho: 
+	Chimenea llena. Tapa de tiro puesta. Pirólisis limpia.
+Tiempo: 
+	25 minutos
 ```
 
 Paso 10. Recargar la pirólisis con material orgánico
 ```
-Entrada: Cámara de pirólisis limpia.
-Acción: Empaca la charola con material orgánico SECO Y DENSO. Cáscara de coco,
-        madera o huesos. Empaca apretado. Desliza la charola. Revisa que el puerto
-        de gas NO esté tapado. Cierra la tapa y aprieta la palanca de mano.
-Resultado: Pirólisis cargada y sellada.
-Bien hecho: Material apretado. Puerto de gas libre. Palanca apretada.
-Tiempo: 15 minutos
+Entrada: 
+	Cámara de pirólisis limpia.
+Acción: 
+	Empaca la charola con material orgánico SECO Y DENSO. Cáscara de coco,
+	madera o huesos. Empaca apretado. Desliza la charola. Revisa que el puerto
+	de gas NO esté tapado. Cierra la tapa y aprieta la palanca de mano.
+Resultado: 
+	Pirólisis cargada y sellada.
+Bien hecho: 
+	Material apretado. Puerto de gas libre. Palanca apretada.
+Tiempo: 
+	15 minutos
 ```
 **PROHIBIDO material mojado, esponjoso, sintético, metal, piedra o combustible en la pirólisis** ⛔
 
 Paso 11. Preparar el quemador de aceite
 ```
-Entrada: Quemador limpio, papel, aceite gastado.
-Acción: Limpia el receptáculo del quemador con la herramienta de gancho.
-        Con el gancho, coloca un rollo grande de papel con una parte remojada
-        en aceite dentro de la cámara interior. Llena el tanque de reserva con
-        aceite gastado. Abre la llave a 2 GOTAS POR SEGUNDO. Observa el flujo.
-        Espera 30 segundos a que el aceite llegue al quemador. Enciende el papel.
-        Prende el ventilador que empuja oxígeno. Deja estabilizar la flama de
-        2 a 5 minutos con la tapa cerrada.
-Resultado: Quemador estable con flama limpia y fuerte. Cámara precalentando.
-Bien hecho: Flama limpia y potente. Sin humo negro. Cámara caliente.
-Tiempo: 5 a 8 minutos
+Entrada: 
+	Quemador limpio, papel, aceite gastado.
+Acción: 
+	Limpia el receptáculo del quemador con la herramienta de gancho.
+	Con el gancho, coloca un rollo grande de papel con una parte remojada
+	en aceite dentro de la cámara interior. Llena el tanque de reserva con
+	aceite gastado. Abre la llave a 2 GOTAS POR SEGUNDO. Observa el flujo.
+	Espera 30 segundos a que el aceite llegue al quemador. Enciende el papel.
+	Prende el ventilador que empuja oxígeno. Deja estabilizar la flama de
+	2 a 5 minutos con la tapa cerrada.
+Resultado: 
+	Quemador estable con flama limpia y fuerte. Cámara precalentando.
+Bien hecho: 
+	Flama limpia y potente. Sin humo negro. Cámara caliente.
+Tiempo: 
+	5 a 8 minutos
 ```
 
 Paso 12. Encender el residuo residual
 ```
-Entrada: Cámara caliente, bolsas de material residual.
-Acción: Abre la cámara CON CUIDADO usando la herramienta de gancho. Echa una bolsa
-        de material residual. Deja 5 a 10 minutos de combustión con tapa cerrada
-        entre cada bolsa. Revisa el puerto de syngas.
-Resultado: Bolsa quemada por completo dentro de la cámara.
-Bien hecho: Contenido totalmente quemado. Sistema sin sobrecarga.
-Tiempo: 5 a 10 minutos por bolsa
+Entrada: 
+	Cámara caliente, bolsas de material residual.
+Acción: 
+	Abre la cámara CON CUIDADO usando la herramienta de gancho. Echa una bolsa
+    de material residual. Deja 5 a 10 minutos de combustión con tapa cerrada
+    entre cada bolsa. Revisa el puerto de syngas.
+Resultado: 
+	Bolsa quemada por completo dentro de la cámara.
+Bien hecho: 
+	Contenido totalmente quemado. Sistema sin sobrecarga.
+Tiempo: 
+	5 a 10 minutos por bolsa
 ```
 **ES ESENCIAL VER SYNGAS, VAPOR BLANCO O VAPOR SALIENDO DEL PUERTO** ⚠️. Si no sale, hay bloqueo y **RIESGO DE EXPLOSIÓN** ☠️. Detén la carga y revisa el puerto.
 
 Paso 13. Quema continua y lavado de toxinas
 ```
-Entrada: Combustión secundaria activa, syngas fluyendo.
-Acción: Sigue agregando bolsas y revisando el syngas. La combustión secundaria
-        dura cerca de una hora. Cuando el syngas SE HACE LENTO O SE DETIENE, la
-        reacción terminó y el lavado de toxinas paró. En ese punto, empieza a
-        regresar el carbón gastado a la cámara junto con la basura para
-        convertirlo en cenizas y atrapar las toxinas.
-Resultado: Carbón gastado convirtiéndose en cenizas finales.
-Bien hecho: Syngas monitoreado. Carbón gastado agregado en el momento correcto.
-Tiempo: cerca de 1 hora de combustión secundaria
+Entrada: 
+	Combustión secundaria activa, syngas fluyendo.
+Acción: 
+	Sigue agregando bolsas y revisando el syngas. La combustión secundaria
+    dura cerca de una hora. Cuando el syngas SE HACE LENTO O SE DETIENE, la
+    reacción terminó y el lavado de toxinas paró. En ese punto, empieza a
+    regresar el carbón gastado a la cámara junto con la basura para
+    convertirlo en cenizas y atrapar las toxinas.
+Resultado: 
+	Carbón gastado convirtiéndose en cenizas finales.
+Bien hecho: 
+	Syngas monitoreado. Carbón gastado agregado en el momento correcto.
+Tiempo: 
+	cerca de 1 hora de combustión secundaria
 ```
 
 Paso 14. Quema final y cierre del ciclo
 ```
-Entrada: Carbón gastado y basura en la cámara.
-Acción: Deja el sistema terminar la quema final CON LA CÁMARA CERRADA. Asegura
-        que TODO el carbón se convierta en cenizas. Deja correr hasta que el
-        ACEITE SE ACABE y todo sea ceniza. Corta el aceite en el momento correcto.
-Resultado: Ciclo de quemado terminado. Todo reducido a cenizas.
-Bien hecho: Sin carbón sobrante. Solo cenizas finales. Aceite cortado a tiempo.
-Tiempo: hasta que el aceite se agote
+Entrada: 
+	Carbón gastado de la quema anterior y ultima basura en la cámara.
+Acción: 
+	Deja el sistema terminar la quema final CON LA CÁMARA CERRADA. Asegura
+    que TODO el carbón de la quema anterior se convierta en cenizas. 
+    Deja correr hasta que el ACEITE SE ACABE y todo sea ceniza. 
+    Corta el aceite en el momento correcto para que no queme en seco.
+Resultado: 
+	Ciclo de quemado terminado. Todo reducido a cenizas. Carbon liberado.
+Bien hecho: 
+	Sin carbón sobrante. Solo cenizas finales. Aceite cortado a tiempo.
+Tiempo: 
+	hasta que el aceite se agote
 ```
-**UN SOLO CICLO DE QUEMADO POR DÍA. ESPERA HASTA EL DÍA SIGUIENTE PARA OTRO** ⛔. Si el ciclo de syngas se agota, la reacción se detiene. El horno debe enfriar por **COMPLETO** ❄️ antes de otro ciclo.
+**UN SOLO CICLO DE QUEMADO POR DÍA. ESPERA HASTA EL DÍA SIGUIENTE PARA OTRO** ⛔. 
+Si el ciclo de syngas se agota, la reacción se detiene. El horno debe enfriar por **COMPLETO** ❄️ antes de otro ciclo.
 
 EN-[ PROCEDURE SUMMARY: Collect barrels after housekeeping. Sort into concrete basins by stream. Process glass, metal, plastic and compost for recovery. On a fully cold furnace, empty chimney charcoal, remove ash, empty pyrolysis and reload the chimney, then repack pyrolysis with dry organic material. Prep the oil burner at two drops per second, ignite, and preheat. Feed residual bags with closed-lid intervals while watching syngas flow. When syngas slows, add spent charcoal to burn off trapped toxins into ash. Let the final burn complete, cut the oil at the right moment, and wait a full day before the next cycle. ]
 
@@ -314,6 +326,13 @@ Si llega aerosol o envase a presión:
 
 Si el aceite se acaba:                
 	-El ciclo terminó. Deja enfriar por completo.
+	
+Si empieza a salir fuego por la chimenea:
+	-EMERGENCIA: El carbon de limpieza se esta quemando por sobretemperatura,
+	abre la compuerta para vaciar el contenido de la chimenea a la camara 
+	de reaccion para quemar el carbon completamente dentro de la camara.
+	RIESGO DE DESTRUCCION POR SOBRETEMPERATURA.
+	ANTES DE ABRIR COMPUERTA, LLENA LA CAMARA CON UNA CARGE DE BASURA.
 ```
 
 --- 
@@ -334,9 +353,9 @@ EN-[ Guest waste arrives mixed and uncontrolled. Sorting is the first ecosystem 
 --- 
 
 【 CONSEQUENCE - CONSECUENCIA 】
-1. Cargar aerosol o envase a presión causa una **EXPLOSIÓN** ☠️ dentro de la cámara. Riesgo directo de muerte del operador.
-2. No ver syngas y seguir cargando acumula gas. La cámara **ESTALLA** ☠️ al abrir la tapa.
-3. Tirar el carbón gastado al jardín en vez de quemarlo mete **METALES PESADOS** al suelo y al agua del pozo. Contamina una corriente de sustrato vivo. Viola la Biblia §5.
+1. Cargar aerosol o envase a presión causa una **EXPLOSIÓN** ☠️ dentro de la cámara. Riesgo directo de muerte del operador o dano catastrofico al incinerador.
+2. No ver syngas y seguir cargando acumula gas dentro de la camara de pirolisis. La cámara EXPLOTA POR SOBREPRESION Y GAS INFLAMABLE ☠️
+3. Tirar el carbón gastado al jardín en vez de quemarlo mete **METALES PESADOS** al suelo y al agua del pozo. Contamina una corriente de sustrato vivo. Viola la Biblia §5. Al quemar, el carbon crea sales alkalinos que se pueden mezclar con concreto para almacenarlo en cubos por cientos de anos.
 4. Compost de huésped cerca de los huertos de fruta introduce **PATÓGENOS** a comida certificada orgánica. Se pierde la certificación. Riesgo de enfermedad a huéspedes.
 5. Arrancar sobre un horno caliente o hacer dos ciclos en un día sobrecalienta el ladrillo. El horno se **VAPORIZA A SÍ MISMO** a 2600 °F. Pérdida total del equipo.
 6. Sorteo mezclado envía material recuperable al fuego. Se pierde ingreso de vidrio, metal y plástico. Se quema **MÁS DE LO NECESARIO** 🔥 y sube la emisión.

@@ -177,50 +177,76 @@ T2     T2                     T1      T2      T2     T2
 ```
 
 ##### Cocina / F&B → [[DEPT-FNB]]
-- [[HCY-1.02.06 - Chef]] · **T1 Veteran** · Dirige CIEN BALLENAS, inocuidad de mariscos · Reporta a: [[HCY-1.02.02]] · ↳ [[DEPT-FNB]] · [[DEPT-WST]] · [[DEPT-BIO]] · [[DEPT-LOG]]
-    - [[HCY-1.02.07 - Sous-Chef y Cocinero]] · **T2 Standard** · Línea de cocina, porciones, separación de orgánicos · Reporta a: [[HCY-1.02.06]] · ↳ [[DEPT-FNB]] · [[DEPT-WST]]
-    - [[HCY-1.02.08 - Preparador y Empacador]] · **T2 Standard** · Pre-procesado, empaque, congelación · Reporta a: [[HCY-1.02.06]] · ↳ [[DEPT-FNB]] · [[DEPT-WST]] · [[DEPT-LOG]]
+- [[HCY-1.02.06 - Chef]] · **T1 Veteran** · Dirige CIEN BALLENAS, inocuidad de mariscos · 
+- Reporta a: [[HCY-1.02.02]] · ↳ [[DEPT-FNB]] · [[DEPT-WST]] · [[DEPT-BIO]] · [[DEPT-LOG]]
+
+    - [[HCY-1.02.07 - Sous-Chef y Cocinero]] · **T2 Standard** · Línea de cocina, porciones, separación de orgánicos · 
+    - Reporta a: [[HCY-1.02.06]] · ↳ [[DEPT-FNB]] · [[DEPT-WST]]
+    
+    - [[HCY-1.02.08 - Preparador y Empacador]] · **T2 Standard** · Pre-procesado, empaque · 
+    - Reporta a: [[HCY-1.02.06]] · ↳ [[DEPT-FNB]] · [[DEPT-WST]] · [[DEPT-LOG]]
 
 ##### Limpieza / Higiene → [[DEPT-HSK]]
-- [[HCY-1.02.09 - Recamarista y Limpieza]] · **T2 Standard** · Limpieza ecológica de villas, cara del eco-lujo · Reporta a: [[HCY-1.02.02]] · ↳ [[DEPT-HSK]] · [[DEPT-GST]] · [[DEPT-BIO]] · [[DEPT-WST]] · [[DEPT-INF]]
+- [[HCY-1.02.09 - Recamarista y Limpieza]] · **T2 Standard** · Limpieza eco de villas, cara del eco-lujo · 
+- Reporta a: [[HCY-1.02.02]] · ↳ [[DEPT-HSK]] · [[DEPT-GST]] · [[DEPT-BIO]] · [[DEPT-WST]] · [[DEPT-INF]]
 
 ##### Terreno / Jardín → [[DEPT-GRD]]
-- [[HCY-1.02.10 - Jardinero]] · **T1 Veteran** (ecológico-crítico) / **T2 Standard** (tareas básicas) · Suelo vivo, huertos, composta biodinámica · Reporta a: [[HCY-1.02.03]] · ↳ [[DEPT-GRD]] · [[DEPT-BIO]] · [[DEPT-WST]] · [[DEPT-INF]]
+- [[HCY-1.02.10 - Jardinero]] · **T1 Veteran** (ecológico-crítico) / **T2 Standard** (tareas básicas) · Suelo vivo, huertos, composta biodinámica · 
+- Reporta a: [[HCY-1.02.03]] · ↳ [[DEPT-GRD]] · [[DEPT-BIO]] · [[DEPT-WST]] · [[DEPT-INF]]
+
 - [[HCY-1.02.11 - Encargado de Terreno]] · **T2 Standard** · Senderos, cortafuegos, fauna, camino · Reporta a: [[HCY-1.02.03]] · ↳ [[DEPT-GRD]] · [[DEPT-EMG]] · [[DEPT-INF]] · [[DEPT-SEC]]
-- [[HCY-1.02.12 - Manejo de Residuos]] · **T2 Standard** / **T1 Veteran** (quemas de biochar) · Composta, biochar, fertilizante líquido · Reporta a: [[HCY-1.02.03]] · ↳ [[DEPT-WST]] · [[DEPT-BIO]] · [[DEPT-GRD]] · [[DEPT-FNB]]
+
+- [[HCY-1.02.12 - Manejo de Residuos]] · **T2 Standard** / **T1 Veteran** (quemas de biochar) · Composta, biochar, fertilizante líquido · 
+- Reporta a: [[HCY-1.02.03]] · ↳ [[DEPT-WST]] · [[DEPT-BIO]] · [[DEPT-GRD]] · [[DEPT-FNB]]
 
 ##### Infraestructura / Mantenimiento → [[DEPT-INF]] · [[DEPT-MNT]]
-- [[HCY-1.02.13 - Mantenimiento]] · **T1 Veteran** (tarea) · **T0 Steward** (tiempo de sistemas críticos) · ⚠ SISTEMA CRÍTICO · Reporta a: [[HCY-1.02.02]] · ↳ [[DEPT-INF]] · [[DEPT-MNT]] · [[DEPT-EMG]] · [[DEPT-BIO]] · [[NODE-Power]] · [[NODE-Well-Cistern]] · [[NODE-Pools]]
+- [[HCY-1.02.13 - Mantenimiento]] · **T1 Veteran** (tarea) · **T0 Steward** (tiempo de sistemas críticos) · ⚠ SISTEMA CRÍTICO · 
+- Reporta a: [[HCY-1.02.02]] · ↳ [[DEPT-INF]] · [[DEPT-MNT]] · [[DEPT-EMG]] · [[DEPT-BIO]] · [[NODE-Power]] · [[NODE-Well-Cistern]] · [[NODE-Pools]]
 
 ##### Seguridad → [[DEPT-SEC]]
-- [[HCY-1.02.14 - Guardia de Seguridad]] · **T1 Veteran** (tarea) · **T0 Steward** (dron y evacuación) · Primer contacto humano · Reporta a: [[HCY-1.02.02]] · ↳ [[DEPT-SEC]] · [[DEPT-GST]] · [[DEPT-EMG]] · [[DEPT-INF]]
+- [[HCY-1.02.14 - Guardia de Seguridad]] · **T1 Veteran** (tarea) · **T0 Steward** (dron y evacuación) · Primer contacto humano · 
+- Reporta a: [[HCY-1.02.02]] · ↳ [[DEPT-SEC]] · [[DEPT-GST]] · [[DEPT-EMG]] · [[DEPT-INF]]
 
 ##### Logística / Transporte → [[DEPT-LOG]]
-- [[HCY-1.02.15 - Chofer y Entregas]] · **T2 Standard** · Transporte, terracería, apoyo de evacuación 4x4 · Reporta a: [[HCY-1.02.04]] · ↳ [[DEPT-LOG]] · [[DEPT-FNB]] · [[DEPT-EMG]] · [[DEPT-INF]]
+- [[HCY-1.02.15 - Chofer y Entregas]] · **T2 Standard** · Transporte, terracería, apoyo de evacuación· 
+- Reporta a: [[HCY-1.02.04]] · ↳ [[DEPT-LOG]] · [[DEPT-FNB]] · [[DEPT-EMG]] · [[DEPT-INF]]
 
 ---
 
 #### LAYER 3 — FUERZA FLUIDA (Labor Variable) · T3 / T2
 
-- [[HCY-1.02.16 - Voluntario]] · **T3 Volunteer** · Supervisado, sin efectivo, sin PII, sin trabajo crítico · Sayulita/Vallarta · ↳ [[DEPT-GRD]] · [[DEPT-WST]] · [[DEPT-HSK]]
-- [[HCY-1.02.17 - Familiar (Casual de Fin de Semana)]] · **T3 Volunteer** · Fin de semana, supervisado · ↳ [[DEPT-HSK]] · [[DEPT-GRD]]
-- [[HCY-1.02.18 - Contratista de Seguridad]] · **T3 Volunteer** · Vetado, supervisado · ↳ [[DEPT-SEC]]
-- [[HCY-1.02.19 - Contratista de Construcción]] · **T3 Volunteer** · Supervisado · ↳ [[DEPT-INF]] · [[DEPT-MNT]]
-- [[HCY-1.02.20 - Contratista de Paisajismo]] · **T3 Volunteer** · Supervisado · ↳ [[DEPT-GRD]] · [[DEPT-BIO]]
-- [[HCY-1.02.21 - Personal de Temporada]] · **T2 Standard** / **T3 Volunteer** · Según rol asignado · ↳ departamento de asignación
+- [[HCY-1.02.16 - Voluntario]] · **T3 Volunteer** · Supervisado, sin efectivo, sin PII, sin trabajo crítico · 
+	↳ [[DEPT-GRD]] · [[DEPT-WST]] · [[DEPT-HSK]]
+
+- [[HCY-1.02.17 - Familiar (Casual de Fin de Semana)]] · **T3 Volunteer** · Fin de semana, supervisado
+	↳ [[DEPT-HSK]] · [[DEPT-GRD]]
+
+- [[HCY-1.02.18 - Contratista de Seguridad]] · **T3 Volunteer** · Vetado, supervisado · 
+	↳ [[DEPT-SEC]]
+
+- [[HCY-1.02.19 - Contratista de Construcción]] · **T3 Volunteer** · Supervisado · 
+	↳ [[DEPT-INF]] · [[DEPT-MNT]]
+
+- [[HCY-1.02.20 - Contratista de Paisajismo]] · **T3 Volunteer** · Supervisado · 
+	↳ [[DEPT-GRD]] · [[DEPT-BIO]]
+
+- [[HCY-1.02.21 - Personal de Temporada]] · **T2 Standard** / **T3 Volunteer** · Según rol asignado · 
+	↳ departamento de asignación
 
 ---
 
 #### TRUST TIER CROSS-CUT — NIVELES DE CONFIANZA
 
-##### 🔴 T0 Steward — Todo: efectivo 💵 · PII 🔒 · sistemas críticos ⚠ · autoridad de tiempo
+##### 🔴 T0 Steward — Todo: efectivo 💵 · 
+PII 🔒 · sistemas críticos - ⚠ · autoridad de tiempo
 - [[HCY-1.02.01 - Albacea y Administrador]]
 - [[HCY-1.02.02 - Gerente de Operaciones]]
 - [[HCY-1.02.05 - Puestos de Apoyo Legal y Financiero]]
 - [[HCY-1.02.13 - Mantenimiento]] *(tiempo de sistemas críticos)*
 - [[HCY-1.02.14 - Guardia de Seguridad]] *(tiempo de dron y evacuación)*
 
-##### 🟠 T1 Veteran — Rol-crítico y ecológico-crítico con capacitación
+##### 🟠 T1 Veteran — 
+Rol-crítico y ecológico-crítico con capacitación
 - [[HCY-1.02.03 - Especialista en Biodinámica]]
 - [[HCY-1.02.04 - Gerente de Logística]]
 - [[HCY-1.02.06 - Chef]]
@@ -229,7 +255,8 @@ T2     T2                     T1      T2      T2     T2
 - [[HCY-1.02.14 - Guardia de Seguridad]] *(tarea)*
 - [[HCY-1.02.12 - Manejo de Residuos]] *(quemas de biochar)*
 
-##### 🟡 T2 Standard — Tareas estándar del rol
+##### 🟡 T2 Standard — 
+Tareas estándar del rol
 - [[HCY-1.02.07 - Sous-Chef y Cocinero]]
 - [[HCY-1.02.08 - Preparador y Empacador]]
 - [[HCY-1.02.09 - Recamarista y Limpieza]]
@@ -239,7 +266,8 @@ T2     T2                     T1      T2      T2     T2
 - [[HCY-1.02.15 - Chofer y Entregas]]
 - [[HCY-1.02.21 - Personal de Temporada]] *(según rol)*
 
-##### 🟢 T3 Volunteer — Supervisado · sin efectivo · sin PII · sin crítico
+##### 🟢 T3 Volunteer — 
+Supervisado · sin efectivo · sin PII · sin crítico
 - [[HCY-1.02.16 - Voluntario]]
 - [[HCY-1.02.17 - Familiar (Casual de Fin de Semana)]]
 - [[HCY-1.02.18 - Contratista de Seguridad]]
@@ -247,7 +275,8 @@ T2     T2                     T1      T2      T2     T2
 - [[HCY-1.02.20 - Contratista de Paisajismo]]
 - [[HCY-1.02.21 - Personal de Temporada]] *(según rol)*
 
-##### ⚪ T4 Ownership — Beneficiario · no operativo
+##### ⚪ T4 Ownership — 
+Beneficiario · no operativo
 - Propietarios x4 (no tienen SOP propio, reciben el resultado del organismo)
 
 ---
@@ -312,7 +341,8 @@ Si es un tema de **DINERO** (cobro, pago, descuento, compensación)
    entonces escala al Gerente de Operaciones o al Albacea. No decides tú.
 
 Si es un tema de **TIERRA O ECOLOGÍA** (fertilizante, plaga, agua viva)
-   entonces la directriz la da el especialista biodinámica ↰ feeds [[BIO-2.07.01]] y la ratifica el Albacea.
+   entonces la directriz la da el especialista biodinámica 
+   ↰ feeds [[BIO-2.07.01]] y la ratifica el Albacea.
 
 Si es una **EMERGENCIA**
    entonces cualquiera inicia la respuesta y avisa a Seguridad y al Gerente de Operaciones.
@@ -321,21 +351,26 @@ Si es una **TAREA DIARIA**
    entonces la coordina el Gerente de Operaciones o tu jefe directo del departamento.
 
 Si es un **SISTEMA CRÍTICO** (energía, pozo, alberca)
-   entonces la tarea la hace Mantenimiento ≈ related [[MNT-02.03.01]] pero el momento de actuar lo autoriza **T0**.
+   entonces se le notifica al gerente o puesto de confianza T1 y la tarea de reparacion la hace Mantenimiento ≈ related [[MNT-02.03.01]] pero el momento de actuar lo autoriza **T0**.
 
 ---
 
 ### 【 REASONING - RAZÓN 】
 
-¿Por qué dos capas y no una sola pirámide? Porque una pirámide rígida hace que la gente solo haga lo suyo y nada más. En una finca remota y viva, eso mata al organismo. La red permite que un chofer que terminó temprano y es bueno con las plantas ayude en el jardín. La pirámide sigue existiendo para que las decisiones grandes no se dispersen, pero el trabajo diario fluye como un equipo.
+**¿Por qué dos capas y no una sola pirámide?**
+Porque una pirámide rígida hace que la gente solo haga lo suyo y nada más. En una finca remota y viva, eso mata al organismo. La red permite que un chofer que terminó temprano y es bueno con las plantas ayude en el jardín. La pirámide sigue existiendo para que las decisiones grandes no se dispersen, pero el trabajo diario fluye como un equipo.
 
-¿Por qué el dinero solo lo manejan dos personas? Por el estatus de albaceazgo y por experiencias pasadas con empleados deshonestos. Concentrar el efectivo en dos manos de máxima confianza protege a todos y evita fugas y sospechas. No es desconfianza hacia el staff. Es protección del sistema.
+**¿Por qué el dinero solo lo manejan dos personas?** 
+Por el estatus de albaceazgo y por experiencias pasadas con empleados deshonestos. Concentrar el efectivo en dos manos de máxima confianza protege a todos y evita fugas y sospechas. No es desconfianza hacia el staff. Es protección del sistema.
 
-¿Por qué existen los niveles de confianza? Porque no toda tarea tiene el mismo riesgo. Un voluntario nuevo puede cubrir mantillo sin peligro, pero no debe tocar la bomba del pozo ni los datos de un huésped. Los niveles protegen a la persona, al huésped y al organismo.
+**¿Por qué existen los niveles de confianza?** 
+Porque no toda tarea tiene el mismo riesgo. Un voluntario nuevo puede cubrir mantillo sin peligro, pero no debe tocar la bomba del pozo ni los datos de un huésped. Los niveles protegen a la persona, al huésped y al organismo.
 
-¿Por qué la regla de la sombrilla? Porque MARACUYA es una comunidad aislada y un organismo vivo. La autoridad para decidir no es lo mismo que el valor de la persona. El jardinero y el Albacea comen del mismo huerto ≈ related [[FNB-2.06.01]] y respiran el mismo aire. Cada uno tiene un don. La estructura organiza el poder, no el respeto.
+**¿Por qué la regla de la sombrilla?** 
+Porque MARACUYA es una comunidad aislada y un organismo vivo. La autoridad para decidir no es lo mismo que el valor de la persona. El jardinero y el Albacea comen del mismo huerto ≈ related [[FNB-2.06.01]] y respiran el mismo aire. Cada uno tiene un don. La estructura organiza el poder, no el respeto.
 
-Conexión con la Biblia de la Tierra: la finca es un organismo. Un organismo tiene órganos distintos con funciones distintas, pero todos dependen unos de otros. El corazón no vale más que el hígado. Así es la estructura de MARACUYA.
+**Conexión con la Biblia de la Tierra:** 
+la finca es un organismo. Un organismo tiene órganos distintos con funciones distintas, pero todos dependen unos de otros. El corazón no vale más que el hígado. Así es la estructura de MARACUYA.
 
 `EN-[ Two layers exist because a rigid pyramid makes people do only their own job, which kills a living remote organism. The network lets a driver who finished early and is good with plants help in the garden, while the pyramid keeps big decisions from scattering. Money is held by only two people of highest trust to protect everyone and prevent leakage, because of executorship status and past dishonesty. Trust levels exist because not every task carries the same risk. The umbrella rule exists because authority to decide is not the same as the worth of a person. Everyone eats from the same orchard and breathes the same air. ]`
 
@@ -355,10 +390,17 @@ Conexión con la Biblia de la Tierra: la finca es un organismo. Un organismo tie
 
 ### 【 EXCEPTIONS - EXCEPCIONES 】
 
-Emergencia de vida o muerte: la estructura se simplifica. Cualquiera actúa de inmediato y avisa después. La vida primero, el reporte después.
-Ausencia del jefe directo: reporta al siguiente puesto hacia arriba en la pirámide.
-Tarea fuera de tu departamento donde eres bueno: puedes apoyar en la red, pero solo bajo el permiso del jefe de esa área y nunca en tareas de nivel de confianza superior al tuyo.
-Duda sobre quién decide: pregunta al Gerente de Operaciones. Nunca inventes autoridad.
+**Emergencia de vida o muerte:**
+la estructura se simplifica. Cualquiera actúa de inmediato y avisa después. La vida primero, el reporte después.
+
+**Ausencia del jefe directo:** 
+reporta al siguiente puesto hacia arriba en la pirámide.
+
+**Tarea fuera de tu departamento donde eres bueno:** 
+puedes apoyar en la red, pero solo bajo el permiso del jefe de esa área y nunca en tareas de nivel de confianza superior al tuyo.
+
+**Duda sobre quién decide:** 
+pregunta al Gerente de Operaciones. Nunca inventes autoridad.
 
 ---
 

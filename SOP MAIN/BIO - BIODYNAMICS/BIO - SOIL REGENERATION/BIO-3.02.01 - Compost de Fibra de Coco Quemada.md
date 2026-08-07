@@ -17,6 +17,7 @@ Confianza  : T1 para el quemado y apagado. El curado es T2.
 Banderas   : 🌱 BIBLIA DE LA TIERRA | ⛑ SEGURIDAD
 ```
 
+
 ![[930c37e1-8175-473e-883d-db5f3402bb8c.png]]
 
 📌 ¿SABÍAS QUE?
